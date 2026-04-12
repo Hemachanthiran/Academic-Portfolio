@@ -599,17 +599,17 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
           <div class="fg"><label class="fl">Full Details</label><textarea class="fta" id="wfdt" rows="4"></textarea></div>
           <div class="fg">
             <label class="fl">Upload Certificate &mdash; PDF or Image, shown in popup</label>
-            <div class="fuz" id="wfz" onclick="document.getElementById('affi').click()" tabindex="0" onkeydown="if(event.key==='Enter')document.getElementById('affi').click()">
+            <div class="fuz" id="afz" onclick="document.getElementById('affi').click()" tabindex="0" onkeydown="if(event.key==='Enter')document.getElementById('affi').click()">
               <div class="fui">&#127942;</div><div class="fut">Click to upload certificate</div><div class="fus">PDF, PNG, JPG &mdash; embedded in the popup</div>
             </div>
-            <input type="file" id="wffi" accept=".pdf,image/*" style="display:none" onchange="hF('wf',this)"/>
-            <div id="wfpv" class="fpw" style="display:none"></div>
+            <input type="file" id="affi" accept=".pdf,image/*" style="display:none" onchange="hF('af',this)"/>
+            <div id="afpv" class="fpw" style="display:none"></div>
           </div>
-          <input type="hidden" id="wfdt2"/><input type="hidden" id="wfft"/><input type="hidden" id="wfid"/>
+          <input type="hidden" id="afdt"/><input type="hidden" id="afft"/><input type="hidden" id="afid"/>
           <div style="display:flex;gap:10px"><button class="btn bp bsm" onclick="svWs()">Save Workshop</button><button class="btn bo bsm" onclick="cWF()">Cancel</button></div>
         </div>
       </div>
-      <div class="afc"><div class="aft">All Workshops</div><div class="atw"><table class="atr"><thead><tr><th>Title</th><th>Organization</th><th>Date</th><th>Cert</th><th>Actions</th></tr></thead><tbody id="wstb"></tbody></table></div></div>
+      <div class="afc"><div class="aft">All Workshops</div><div class="atw"><table class="atr"><thead><tr><th>Title</th><th>Organization</th><th>Date</th><th>Cert</th><th>Actions</th></tr></thead><tbody id="artb"></tbody></table></div></div>
     </div>
 
     <div id="p6" class="ap">

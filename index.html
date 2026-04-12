@@ -8,8 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet"/>
 <style>
-:root{--bg:#f5f2ec;--bg2:#edeae2;--sur:#ffffff;--sur2:#f8f6f1;--gls:rgba(255, 255, 255, 0.36);--gb:rgba(200,195,185,0.45);--tx:#1a1714;--tx2:#4a4540;--tx3:#7a7570;--ac:#1e4db7;--ac2:#2563eb;--al:#dbeafe;--gd:#60a5fa;--dn:#c0392b;--r:14px;--rs:8px;--sh:0 4px 24px rgba(45,106,79,.10),0 1px 4px rgba(0,0,0,.06);--shl:0 12px 48px rgba(45,106,79,.14),0 4px 16px rgba(0,0,0,.08);--fd:'DM Serif Display',Georgia,serif;--fb:'DM Sans',system-ui,sans-serif;--nav:68px;--tr:.28s cubic-bezier(.4,0,.2,1)}
-[data-theme="dark"]{--bg:#0d0f14;--bg2:#13131a;--sur:#1a1f24;--sur2:#1f2b2d;--gls:rgba(26, 29, 36, 0.82);--gb:rgba(64, 99, 145, 0.22);--tx:#e8e4dc;--tx2:#b0aca4;--tx3:#6a6660;--ac:#60a5fa;--ac2:#74c69d;--al:rgba(82,183,136,.14);--gd:#d4a853;--sh:0 4px 24px rgba(0,0,0,.35),0 1px 4px rgba(0,0,0,.2);--shl:0 12px 48px rgba(0,0,0,.45),0 4px 16px rgba(0,0,0,.25)}
+:root{--bg:#f5f2ec;--bg2:#edeae2;--sur:#ffffff;--sur2:#f8f6f1;--gls:rgba(255,255,255,0.72);--gb:rgba(200,195,185,0.45);--tx:#1a1714;--tx2:#4a4540;--tx3:#7a7570;--ac:#1e4db7;--ac2:#2563eb;--al:#dbeafe;--gd:#60a5fa;--dn:#c0392b;--r:14px;--rs:8px;--sh:0 4px 24px rgba(30,77,183,.10),0 1px 4px rgba(0,0,0,.06);--shl:0 12px 48px rgba(30,77,183,.14),0 4px 16px rgba(0,0,0,.08);--fd:'DM Serif Display',Georgia,serif;--fb:'DM Sans',system-ui,sans-serif;--nav:68px;--tr:.28s cubic-bezier(.4,0,.2,1)}
+[data-theme="dark"]{--bg:#0d0e14;--bg2:#131a1a;--sur:#1a1d24;--sur2:#202236;--gls:rgba(26, 27, 36, 0.82);--gb:rgba(64, 129, 145, 0.22);--tx:#e8e4dc;--tx2:#b0aca4;--tx3:#6a6660;--ac:#60a5fa;--ac2:#93c5fd;--al:rgba(96,165,250,.14);--gd:#93c5fd;--sh:0 4px 24px rgba(0,0,0,.35),0 1px 4px rgba(0,0,0,.2);--shl:0 12px 48px rgba(0,0,0,.45),0 4px 16px rgba(0,0,0,.25)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:var(--fb);background:var(--bg);color:var(--tx);min-height:100vh;transition:background var(--tr),color var(--tr);overflow-x:hidden}
@@ -24,7 +24,7 @@ input,textarea,select{font-family:inherit}ul{list-style:none}
 .card{background:var(--sur);border:1px solid var(--gb);border-radius:var(--r);box-shadow:var(--sh);transition:transform var(--tr),box-shadow var(--tr)}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shl)}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 22px;border-radius:100px;font-size:.88rem;font-weight:500;transition:all var(--tr)}
-.bp{background:var(--ac);color:#fff;box-shadow:0 3px 12px rgba(45,106,79,.35)}
+.bp{background:var(--ac);color:#fff;box-shadow:0 3px 12px rgba(30,77,183,.35)}
 .bp:hover{background:var(--ac2);transform:translateY(-2px)}
 .bo{border:1.5px solid var(--gb);color:var(--tx2);background:var(--gls)}
 .bo:hover{border-color:var(--ac);color:var(--ac);background:var(--al)}
@@ -54,8 +54,8 @@ input,textarea,select{font-family:inherit}ul{list-style:none}
 .hbg span{display:block;width:22px;height:2px;background:var(--tx);border-radius:2px}
 /* HERO */
 #hero{min-height:100vh;display:flex;align-items:center;position:relative;padding-top:var(--nav);overflow:hidden}
-.hbg2{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 80% 60% at 70% 40%,rgba(82,183,136,.12) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 10% 80%,rgba(201,168,76,.08) 0%,transparent 60%)}
-[data-theme="dark"] .hbg2{background:radial-gradient(ellipse 80% 60% at 70% 40%,rgba(52,183,136,.08) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 10% 80%,rgba(201,168,76,.05) 0%,transparent 60%)}
+.hbg2{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 80% 60% at 70% 40%,rgba(37,99,235,.10) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 10% 80%,rgba(96,165,250,.08) 0%,transparent 60%)}
+[data-theme="dark"] .hbg2{background:radial-gradient(ellipse 80% 60% at 70% 40%,rgba(37,99,235,.07) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 10% 80%,rgba(96,165,250,.05) 0%,transparent 60%)}
 .hgr{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .hey{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:100px;background:var(--al);color:var(--ac);font-size:.78rem;font-weight:600;letter-spacing:.06em;margin-bottom:24px;animation:sd .7s ease .1s both}
 .hey::before{content:'●';font-size:.5rem;animation:pu 2s infinite}
@@ -146,7 +146,7 @@ input,textarea,select{font-family:inherit}ul{list-style:none}
 .fg{margin-bottom:20px}
 .fl{display:block;font-size:.82rem;font-weight:500;margin-bottom:7px;color:var(--tx2)}
 .fi3,.fta,.fse{width:100%;padding:12px 16px;background:var(--sur);border:1.5px solid var(--gb);border-radius:var(--rs);color:var(--tx);font-size:.9rem;transition:border-color var(--tr),box-shadow var(--tr)}
-.fi3:focus,.fta:focus,.fse:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 3px rgba(45,106,79,.12)}
+.fi3:focus,.fta:focus,.fse:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 3px rgba(30,77,183,.12)}
 .fta{resize:vertical;min-height:130px}
 .fse{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237a7570' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
 .fsu{display:none;padding:14px 18px;background:var(--al);border:1px solid var(--ac);border-radius:var(--rs);color:var(--ac);font-size:.9rem;font-weight:500;margin-top:16px}
@@ -247,6 +247,33 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
   .mpdf iframe{height:360px}
 }
 @media(max-width:480px){.lc{padding:36px 24px}.act2{padding:20px}.hbd{flex-direction:column;align-items:center}}
+
+/* RESEARCH PROJECT TILES */
+.rpgrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:22px}
+.rpc{padding:26px 24px;cursor:pointer;display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden;transition:transform var(--tr),box-shadow var(--tr),border-color var(--tr)}
+.rpc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--ac),var(--ac2));transform:scaleX(0);transform-origin:left;transition:transform var(--tr)}
+.rpc:hover{transform:translateY(-5px);box-shadow:var(--shl);border-color:var(--ac)}
+.rpc:hover::before{transform:scaleX(1)}
+.rps{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:100px;font-size:.72rem;font-weight:600;letter-spacing:.04em;margin-bottom:2px}
+.rps-active{background:rgba(37,99,235,.12);color:var(--ac)}
+.rps-complete{background:rgba(16,185,129,.12);color:#059669}
+.rps-paused{background:rgba(245,158,11,.12);color:#d97706}
+.rpt{font-family:var(--fd);font-size:1.1rem;line-height:1.35;color:var(--tx)}
+.rpd{font-size:.87rem;color:var(--tx2);line-height:1.6;flex:1}
+.rpf{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--gb);margin-top:auto}
+.rpfl{display:flex;gap:6px;flex-wrap:wrap}
+.rparr{font-size:.8rem;font-weight:600;color:var(--ac);display:flex;align-items:center;gap:4px;transition:gap var(--tr)}
+.rpc:hover .rparr{gap:8px}
+/* modal project materials */
+.mmat{margin-top:20px}
+.mmatt{font-size:.78rem;font-weight:600;color:var(--tx3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
+.mmatg{display:flex;flex-direction:column;gap:10px}
+.mmatf{padding:14px 16px;background:var(--bg2);border:1px solid var(--gb);border-radius:var(--rs);display:flex;align-items:center;gap:12px}
+.mmatfi{font-size:1.6rem;flex-shrink:0}
+.mmafn{font-size:.88rem;font-weight:600;color:var(--tx)}
+.mmafs{font-size:.75rem;color:var(--tx3)}
+.mmatimg img{width:100%;border-radius:var(--rs);margin-top:4px;max-height:400px;object-fit:contain;background:var(--bg2)}
+.mmatpdf iframe{width:100%;height:460px;border:none;border-radius:var(--rs);display:block;background:#f0f0f0}
 </style>
 </head>
 <body>
@@ -257,9 +284,10 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
     <ul class="nls" id="nls">
       <li><a href="#about" onclick="cn()">About</a></li>
       <li><a href="#skills" onclick="cn()">Skills</a></li>
-      <li><a href="#articles" onclick="cn()">Articles</a></li>
+      <li><a href="#research" onclick="cn()">Projects</a></li>
       <li><a href="#workshops" onclick="cn()">Workshops</a></li>
-      <li><a href="#events" onclick="cn()">Events</a></li>
+      <li><a href="#articles" onclick="cn()">Articles</a></li>
+      <li><a href="#courses" onclick="cn()">Courses</a></li>
       <li><a href="#contact" onclick="cn()">Contact</a></li>
     </ul>
     <div class="nr">
@@ -280,7 +308,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
         <h1 class="hn" id="phn"><span id="phn2">Hemachanthiran<br/><em>Parasuraman</em></span></h1>
         <p class="htg" id="phtg">Pharmaceutical Technology Student &middot; Research Enthusiast &middot; Passionate about Drug Delivery Systems</p>
         <div class="hac">
-          <a href="mailto:hemachanthiranchandru7229@gmailcom" class="btn bp">
+          <a href="/cdn-cgi/l/email-protection#b6d5ded7d8d2c4c3f6c3d8dfc0d3c4c5dfc2cf98d3d2c3" class="btn bp">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>Get in Touch
           </a>
           <a href="#about" class="btn bo">
@@ -288,7 +316,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
           </a>
         </div>
         <div class="hso">
-          <a href="mailto:hemachanthiranchandru7229@gmail.com" class="sic" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+          <a href="hemachanthiranchandru7229@gmail.com" class="sic" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
           <a href="https://linkedin.com/in/hemachanthiran" target="_blank" rel="noopener" class="sic" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
           <a href="https://github.com/Hemachanthiran" target="_blank" rel="noopener" class="sic" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.33.85 0 1.7.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.16.58.67.48C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"/></svg></a>
           <a href="https://researchgate.net" target="_blank" rel="noopener" class="sic" aria-label="ResearchGate"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.285 0H4.715A4.715 4.715 0 0 0 0 4.715v14.57A4.715 4.715 0 0 0 4.715 24h14.57A4.715 4.715 0 0 0 24 19.285V4.715A4.715 4.715 0 0 0 19.285 0zm-5.68 17.47c-.36.18-.75.27-1.15.27-1.53 0-2.76-1.23-2.76-2.75 0-.7.26-1.33.69-1.81-.44-.48-.69-1.11-.69-1.8 0-1.51 1.22-2.74 2.73-2.74.76 0 1.45.31 1.95.81V7.93h1.1v6.04a2.76 2.76 0 0 1-1.87 2.6v.93zm1.87-7.13v-2.5h1.1v1.4h1.38v1.1H15.49z"/></svg></a>
@@ -300,7 +328,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
           <div class="haw"><div class="hav" id="phinit">CP</div></div>
           <div class="hbd" id="phbdg">
             <div class="hbdg">&#127891; PharmTech &middot; Second Year</div>
-            <div class="hbdg">&#128202; Six Sigma &middot; Yellow Belt</div>
+            <div class="hbdg">&#128202; Six Sigma - Yellow Belt</div>
           </div>
         </div>
       </div>
@@ -309,6 +337,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
   <div class="sch"><span>SCROLL</span><div class="sca">&#8595;</div></div>
 </section>
 
+
 <section id="about" class="sec">
   <div class="cn">
     <div class="abg">
@@ -316,17 +345,17 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
         <div class="slb">Overview</div>
         <div class="asc">
           <div class="stc"><div class="stn">2nd</div><div class="stl2">Year Pharma Tech Student</div></div>
-          <div class="stc"><div class="stn">2</div><div class="stl2">Articles written</div></div>
-          <div class="stc"><div class="stn">8+</div><div class="stl2">Workshops Attended</div></div>
-          <div class="stc"><div class="stn">1</div><div class="stl2">Active Research Projects</div></div>
+          <div class="stc"><div class="stn">2</div><div class="stl2">Article Written</div></div>
+          <div class="stc"><div class="stn">5+</div><div class="stl2">Workshops Attended</div></div>
+          <div class="stc"><div class="stn">1</div><div class="stl2">Research Project</div></div>
         </div>
       </div>
       <div class="fi">
         <div class="slb">Who I Am</div>
         <h2 class="stl">About &amp; Current Work</h2>
-        <div class="atx" id="pap1">I am a second-year Pharmaceutical Technology student with a developing interest in formulation design, drug delivery systems, and research-oriented problem solving. My academic journey is focused on understanding how scientific principles translate into effective therapeutic solutions.</div>
-        <div class="atx" id="pap2">I am currently seeking internship opportunities to gain research exposure, develop laboratory skills, and contribute to innovative pharmaceutical and biotechnological advancements.</div>
-        <div class="ahl" id="paq">"Where scientific curiosity meets practical innovation."</div>
+        <div class="atx" id="pap1">I’m a second-year BTech Pharmaceutical Technology student with a strong interest in formulation development, applied research, and solving real-world healthcare challenges. I’m particularly drawn to creating solutions that improve drug delivery, absorption, and overall patient outcomes.</div>
+        <div class="atx" id="pap2">I’m currently seeking internship opportunities where I can apply my academic knowledge in practical settings, gain hands-on industry experience, and contribute to projects that make a meaningful impact in the pharmaceutical and biotech space</div>
+        <div class="ahl" id="paq">"Turning scientific understanding into real-world impact."</div>
       </div>
     </div>
   </div>
@@ -347,6 +376,22 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
   </div>
 </section>
 
+<section id="research" class="sec">
+  <div class="cn">
+    <div class="slb fi">Works done</div>
+    <h2 class="stl fi">Research Projects</h2>
+    <div class="rpgrd fi" id="rpgrd"></div>
+  </div>
+</section>
+
+<section id="workshops" class="sec" style="background:var(--bg2)">
+  <div class="cn">
+    <div class="slb fi">Practical Knowledge</div>
+    <h2 class="stl fi">Workshops </h2>
+    <div class="tl fi" id="wstl"></div>
+  </div>
+</section>
+
 <section id="articles" class="sec">
   <div class="cn">
     <div class="slb fi">Research Output</div>
@@ -355,11 +400,11 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
   </div>
 </section>
 
-<section id="workshops" class="sec" style="background:var(--bg2)">
+<section id="courses" class="sec" style="background:var(--bg2)">
   <div class="cn">
-    <div class="slb fi">Continuing Education</div>
-    <h2 class="stl fi">Workshops &amp; Courses</h2>
-    <div class="tl fi" id="wstl"></div>
+    <div class="slb fi">Academic Journey</div>
+    <h2 class="stl fi">Courses Done</h2>
+    <div class="tl fi" id="crstl"></div>
   </div>
 </section>
 
@@ -377,10 +422,10 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
     <h2 class="stl fi">Contact Me</h2>
     <div class="cog fi">
       <div class="coi">
-        <div class="coit"><div class="coic">&#128231;</div><div><div class="coil">Email</div><div class="coiv">chandru@university.edu</div></div></div>
-        <div class="coit"><div class="coic">&#127963;&#65039;</div><div><div class="coil">Institution</div><div class="coiv">University of Sciences</div></div></div>
-        <div class="coit"><div class="coic">&#128205;</div><div><div class="coil">Location</div><div class="coiv">Faculty of Pharmacy, Building C</div></div></div>
-        <div class="coit"><div class="coic">&#128300;</div><div><div class="coil">Research Focus</div><div class="coiv">Drug Delivery &amp; Nanomedicine</div></div></div>
+        <div class="coit"><div class="coic">&#128231;</div><div><div class="coil">Email</div><div class="coiv"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4f2c272e212b3d3a0f3a2126392a3d3c263b36612a2b3a">[email&#160;protected]</a></div></div></div>
+        <div class="coit"><div class="coic">&#127963;&#65039;</div><div><div class="coil">Institution</div><div class="coiv">ACTech campus, Anna University</div></div></div>
+        <div class="coit"><div class="coic">&#128205;</div><div><div class="coil">Location</div><div class="coiv">Chennai, Tamilnadu</div></div></div>
+        <div class="coit"><div class="coic">&#128300;</div><div><div class="coil">Research Focus</div><div class="coiv">Drug Delivery, Bioinformatics &amp; Nanomedicine</div></div></div>
       </div>
       <div>
         <form id="ctf" novalidate>
@@ -390,18 +435,19 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
           <button type="submit" class="btn bp" style="width:100%;justify-content:center">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>Send Message
           </button>
-          <div class="fsu" id="fsu">&#9989; Message sent! I'll get back to you soon.</div>
+          <div class="fsu" id="fsu">&#9989; Message sent! We'll get back to you soon.</div>
         </form>
       </div>
     </div>
   </div>
 </section>
 
+
 <footer>
   <div class="cn">
-    <div class="flo">Chandru<span>.</span></div>
-    <nav class="fls"><a href="#about">About</a><a href="#skills">Skills</a><a href="#articles">Articles</a><a href="#workshops">Workshops</a><a href="#events">Events</a><a href="#contact">Contact</a></nav>
-    <p class="fcp">&#169; 2025 Chandru &middot; Pharmaceutical Technology Student</p>
+    <div class="flo">Hemachanthiran<span>.</span></div>
+    <nav class="fls"><a href="#about">About</a><a href="#skills">Skills</a><a href="#research">Projects</a><a href="#workshops">Workshops</a><a href="#articles">Articles</a><a href="#courses">Courses</a><a href="#contact">Contact</a></nav>
+    <p class="fcp">&#169; 2026 Hemachanthiran &middot; Parasuraman</p>
   </div>
 </footer>
 </div>
@@ -423,7 +469,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
     <div class="fg"><label class="fl" for="lu">Username</label><input class="fi3" type="text" id="lu" placeholder="admin" autocomplete="username"/></div>
     <div class="fg"><label class="fl" for="lp">Password</label><input class="fi3" type="password" id="lp" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" autocomplete="current-password"/></div>
     <button class="btn bp" style="width:100%;justify-content:center;margin-top:8px" onclick="dL()">Sign In</button>
-    <p style="margin-top:20px;font-size:.78rem;color:var(--tx3);text-align:center"><br/><a href="#" onclick="sP()" style="color:var(--ac)">&#8592; Back to Portfolio</a></p>
+    <p style="margin-top:20px;font-size:.78rem;color:var(--tx3);text-align:center">Demo: admin / admin123<br/><a href="#" onclick="sP()" style="color:var(--ac)">&#8592; Back to Portfolio</a></p>
   </div>
 </div>
 
@@ -436,8 +482,10 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
       <div class="ani" onclick="sAP('p1',this)" tabindex="0"><span class="ni">&#127968;</span> Hero Section</div>
       <div class="ani" onclick="sAP('p2',this)" tabindex="0"><span class="ni">&#128100;</span> About</div>
       <div class="ani" onclick="sAP('p3',this)" tabindex="0"><span class="ni">&#9889;</span> Skills</div>
-      <div class="ani" onclick="sAP('p4',this)" tabindex="0"><span class="ni">&#128196;</span> Articles</div>
+      <div class="ani" onclick="sAP('p9',this)" tabindex="0"><span class="ni">&#128270;</span> Research Projects</div>
       <div class="ani" onclick="sAP('p5',this)" tabindex="0"><span class="ni">&#127891;</span> Workshops</div>
+      <div class="ani" onclick="sAP('p4',this)" tabindex="0"><span class="ni">&#128196;</span> Articles</div>
+      <div class="ani" onclick="sAP('p8',this)" tabindex="0"><span class="ni">&#127979;</span> Courses</div>
       <div class="ani" onclick="sAP('p6',this)" tabindex="0"><span class="ni">&#128248;</span> Events</div>
       <div class="ani" onclick="sAP('p7',this)" tabindex="0"><span class="ni">&#128172;</span> Messages<span id="mb" style="margin-left:auto;background:var(--ac);color:#fff;border-radius:100px;padding:1px 7px;font-size:.7rem"></span></div>
     </nav>
@@ -455,13 +503,16 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
         <div class="afc"><div class="aft">Recent Messages</div><div id="dms"></div></div>
         <div class="afc"><div class="aft">Quick Actions</div>
           <div style="display:flex;flex-direction:column;gap:10px">
-            <button class="btn bp bsm" onclick="sAP('p4',null)">+ New Article</button>
+            <button class="btn bp bsm" onclick="sAP('p9',null)">+ New Research Project</button>
             <button class="btn bo bsm" onclick="sAP('p5',null)">+ New Workshop</button>
+            <button class="btn bo bsm" onclick="sAP('p4',null)">+ New Article</button>
+            <button class="btn bo bsm" onclick="sAP('p8',null)">+ New Course</button>
             <button class="btn bo bsm" onclick="sAP('p6',null)">+ New Event</button>
             <button class="btn bo bsm" onclick="sAP('p7',null)">View All Messages</button>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <div id="p1" class="ap">
@@ -587,6 +638,77 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
       <div class="afc"><div class="aft">All Events</div><div class="atw"><table class="atr"><thead><tr><th>Title</th><th>Date</th><th>Description</th><th>Photo</th><th>Actions</th></tr></thead><tbody id="evtb"></tbody></table></div></div>
     </div>
 
+
+    <div id="p8" class="ap">
+      <div class="ah"><h1 class="atl">Courses Done</h1><button class="btn bp bsm" onclick="oCrF()">+ Add Course</button></div>
+      <div class="afc" id="crf" style="display:none"><div class="aft">Add / Edit Course</div>
+        <div class="afg">
+          <div class="fg"><label class="fl">Course Title</label><input class="fi3" id="cft" placeholder="Course name..."/></div>
+          <div class="afr">
+            <div class="fg"><label class="fl">Institution / Platform</label><input class="fi3" id="cfi" placeholder="Coursera, University..."/></div>
+            <div class="fg"><label class="fl">Date Completed</label><input class="fi3" type="date" id="cfd"/></div>
+          </div>
+          <div class="fg"><label class="fl">Duration</label><input class="fi3" id="cfdu" placeholder="e.g. 6 weeks, 3 months..."/></div>
+          <div class="fg"><label class="fl">Description / Key Learnings</label><textarea class="fta" id="cfdc" rows="4" placeholder="What you learned..."></textarea></div>
+          <div class="fg">
+            <label class="fl">Upload Certificate (PDF or Image)</label>
+            <div class="fuz" id="cfz" onclick="document.getElementById('cffi').click()" tabindex="0" onkeydown="if(event.key==='Enter')document.getElementById('cffi').click()">
+              <div class="fui">&#127891;</div><div class="fut">Click to upload certificate</div><div class="fus">PDF, PNG, JPG &mdash; shown in popup</div>
+            </div>
+            <input type="file" id="cffi" accept=".pdf,image/*" style="display:none" onchange="hF('cf',this)"/>
+            <div id="cfpv" class="fpw" style="display:none"></div>
+          </div>
+          <input type="hidden" id="cfdt"/><input type="hidden" id="cfft"/><input type="hidden" id="cfid"/>
+          <div style="display:flex;gap:10px"><button class="btn bp bsm" onclick="svCr()">Save Course</button><button class="btn bo bsm" onclick="cCrF()">Cancel</button></div>
+        </div>
+      </div>
+      <div class="afc"><div class="aft">All Courses</div><div class="atw"><table class="atr"><thead><tr><th>Title</th><th>Institution</th><th>Date</th><th>Cert</th><th>Actions</th></tr></thead><tbody id="crtb"></tbody></table></div></div>
+    </div>
+
+    <div id="p9" class="ap">
+      <div class="ah"><h1 class="atl">Research Projects</h1><button class="btn bp bsm" onclick="oRpF()">+ Add Project</button></div>
+      <div class="afc" id="rpf" style="display:none"><div class="aft">Add / Edit Research Project</div>
+        <div class="afg">
+          <div class="fg"><label class="fl">Project Title</label><input class="fi3" id="rft" placeholder="Project title..."/></div>
+          <div class="afr">
+            <div class="fg"><label class="fl">Status</label>
+              <select class="fi3 fse" id="rfs">
+                <option value="active">Active</option>
+                <option value="complete">Complete</option>
+                <option value="paused">Paused</option>
+              </select>
+            </div>
+            <div class="fg"><label class="fl">Duration / Year</label><input class="fi3" id="rfdu" placeholder="e.g. Jan 2024 &mdash; Present"/></div>
+          </div>
+          <div class="fg"><label class="fl">Short Description (tile)</label><textarea class="fta" id="rfsd" rows="2" placeholder="Brief summary for the project tile..."></textarea></div>
+          <div class="fg"><label class="fl">Full Description (popup)</label><textarea class="fta" id="rffd" rows="6" placeholder="Full project description, methodology, outcomes..."></textarea></div>
+          <div class="fg"><label class="fl">Tags (comma separated)</label><input class="fi3" id="rftg" placeholder="Nanomedicine, PLGA, Drug Delivery"/></div>
+          <div class="fg"><label class="fl">Supervisor / Collaborators</label><input class="fi3" id="rfsc" placeholder="Prof. Name, Lab Name..."/></div>
+          <div class="fg">
+            <label class="fl">Supporting Material 1 &mdash; PDF or Image (e.g. poster, paper)</label>
+            <div class="fuz" id="rf1z" onclick="document.getElementById('rf1fi').click()" tabindex="0" onkeydown="if(event.key==='Enter')document.getElementById('rf1fi').click()">
+              <div class="fui">&#128196;</div><div class="fut">Click to upload material 1</div><div class="fus">PDF, PNG, JPG &mdash; shown in popup</div>
+            </div>
+            <input type="file" id="rf1fi" accept=".pdf,image/*" style="display:none" onchange="hF('rf1',this)"/>
+            <div id="rf1pv" class="fpw" style="display:none"></div>
+          </div>
+          <div class="fg">
+            <label class="fl">Supporting Material 2 (optional)</label>
+            <div class="fuz" id="rf2z" onclick="document.getElementById('rf2fi').click()" tabindex="0" onkeydown="if(event.key==='Enter')document.getElementById('rf2fi').click()">
+              <div class="fui">&#128196;</div><div class="fut">Click to upload material 2</div><div class="fus">PDF, PNG, JPG &mdash; shown in popup</div>
+            </div>
+            <input type="file" id="rf2fi" accept=".pdf,image/*" style="display:none" onchange="hF('rf2',this)"/>
+            <div id="rf2pv" class="fpw" style="display:none"></div>
+          </div>
+          <input type="hidden" id="rf1dt"/><input type="hidden" id="rf1ft"/>
+          <input type="hidden" id="rf2dt"/><input type="hidden" id="rf2ft"/>
+          <input type="hidden" id="rfid"/>
+          <div style="display:flex;gap:10px"><button class="btn bp bsm" onclick="svRp()">Save Project</button><button class="btn bo bsm" onclick="cRpF()">Cancel</button></div>
+        </div>
+      </div>
+      <div class="afc"><div class="aft">All Research Projects</div><div class="atw"><table class="atr"><thead><tr><th>Title</th><th>Status</th><th>Duration</th><th>Materials</th><th>Actions</th></tr></thead><tbody id="rptb"></tbody></table></div></div>
+    </div>
+
     <div id="p7" class="ap">
       <div class="ah"><h1 class="atl">Messages</h1><button class="btn bo bsm" onclick="clMs()">Clear All</button></div>
       <div id="msl"></div>
@@ -597,17 +719,27 @@ footer{padding:48px 0 32px;border-top:1px solid var(--gb);text-align:center}
 
 <div class="tst" id="tst"></div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const DB={get(k,d=null){try{const v=localStorage.getItem('ap_'+k);return v!==null?JSON.parse(v):d}catch{return d}},set(k,v){try{localStorage.setItem('ap_'+k,JSON.stringify(v))}catch{}}};
 (function seed(){
   if(DB.get('seeded'))return;
-  DB.set('hero',{name:'Hemachanthiran<br/><em>Parasuraman</em>',tagline:'Pharmaceutical Technology Student \xb7 Research Enthusiast \xb7 Passionate about Drug Delivery Systems',init:'CP',b1:'\ud83c\udf93 PharmTech \xb7 Second Year',b2:'\ud83d\udcca Six Sigma - Yellow belt'});
-  DB.set('about',{p1:'I am a second-year Pharmaceutical Technology student with a developing interest in formulation design, drug delivery systems, and research-oriented problem solving. My academic journey is focused on understanding how scientific principles translate into effective therapeutic solutions.',p2:'I am currently seeking internship opportunities to gain research exposure, develop laboratory skills, and contribute to innovative pharmaceutical and biotechnological advancements.',q:'\u201cWhere scientific curiosity meets practical innovation.\u201d'});
+  DB.set('hero',{name:'Henachanthiran<br/><em>Parasuraman</em>',tagline:'Pharmaceutical Technology Student \xb7 Research Enthusiast \xb7 Passionate about Drug Delivery Systems',init:'CP',b1:'\ud83c\udf93 PharmTech \xb7 Second Year',b2:'\ud83d\udcca Six Sigma - Yellow Belt'});
+  DB.set('about',{p1:'I’m a second-year BTech Pharmaceutical Technology student with a strong interest in formulation development, applied research, and solving real-world healthcare challenges. I’m particularly drawn to creating solutions that improve drug delivery, absorption, and overall patient outcomes.',p2:'I’m currently seeking internship opportunities where I can apply my academic knowledge in practical settings, gain hands-on industry experience, and contribute to projects that make a meaningful impact in the pharmaceutical and biotech space',q:'\ Turning scientific understanding into real-world impact.\u201d'});
   DB.set('skills',[{id:1,name:'Formulation Development',cat:'tech',level:88},{id:2,name:'Analytical Techniques (HPLC, UV-Vis)',cat:'tech',level:82},{id:3,name:'Drug Release Studies',cat:'tech',level:90},{id:4,name:'Nanotechnology & Nanoparticles',cat:'tech',level:78},{id:5,name:'Pharmaceutical Analysis',cat:'tech',level:85},{id:6,name:'Microsoft Office Suite',cat:'tools',level:0},{id:7,name:'GraphPad Prism',cat:'tools',level:0},{id:8,name:'Origin Pro',cat:'tools',level:0},{id:9,name:'ChemDraw',cat:'tools',level:0},{id:10,name:'ImageJ',cat:'tools',level:0},{id:11,name:'Zotero / Mendeley',cat:'tools',level:0},{id:12,name:'Python',cat:'prog',level:0},{id:13,name:'R (Statistical Computing)',cat:'prog',level:0},{id:14,name:'MATLAB',cat:'prog',level:0}]);
   DB.set('articles',[{id:1,title:'Lipid Nanoparticles for mRNA Delivery: A Comprehensive Review',date:'2024-11-15',tag:'Int. J. Pharmaceutics',shortDesc:'A systematic review exploring current advancements in LNP formulations for mRNA-based therapeutics, focusing on formulation strategies.',fullContent:'This comprehensive review examines the role of lipid nanoparticles (LNPs) as non-viral vectors for mRNA delivery. We discuss formulation parameters including lipid composition, PEGylation strategies, and manufacturing processes. The review covers critical considerations for physicochemical characterization, storage stability, and clinical translation.',fileData:'',fileType:''},{id:2,title:'Polymer-Based Sustained Release Systems: Advances and Challenges',date:'2024-06-20',tag:'Drug Delivery',shortDesc:'Investigation into novel polymer matrices for controlled drug release with PLGA-based microspheres.',fullContent:'This study presents the development and characterization of PLGA-based microspheres for sustained release of a model hydrophilic drug. Using double emulsion solvent evaporation, we achieved encapsulation efficiencies exceeding 75% with zero-order release kinetics maintained over 21 days.',fileData:'',fileType:''},{id:3,title:'In Silico Prediction of Skin Permeability: A Machine Learning Approach',date:'2023-09-08',tag:'Pharmaceutics',shortDesc:'Application of machine learning models to predict dermal permeability coefficients from molecular descriptors.',fullContent:'The prediction of skin permeability is critical for transdermal drug delivery. We employed Random Forest, SVR, and Neural Network models trained on a curated dataset. Our best model achieved R\xb2 of 0.89 on the test set.',fileData:'',fileType:''}]);
   DB.set('workshops',[{id:1,title:'Advanced Nanomedicine: From Bench to Bedside',org:'European Federation of Pharmaceutical Sciences',date:'2024-10-10',details:'A three-day intensive workshop covering latest developments in nanomedicine, including liposomes, polymeric nanoparticles, and inorganic nanocarriers. Participated in hands-on formulation sessions.',fileData:'',fileType:''},{id:2,title:'Good Manufacturing Practice (GMP) Fundamentals',org:'Pharma Training Institute',date:'2024-05-14',details:'Comprehensive online course on GMP principles covering documentation, quality systems, and regulatory compliance. Completed with distinction.',fileData:'',fileType:''},{id:3,title:'Scientific Writing for Pharmaceutical Research',org:'University Graduate School',date:'2023-11-22',details:'Intensive workshop on scientific writing, manuscript preparation, and peer review process. Covered structure of research articles and publication ethics.',fileData:'',fileType:''}]);
   DB.set('events',[{id:1,title:'International Pharmaceutical Sciences Congress 2024',date:'2024-09-18',emoji:'\ud83c\udf0d',shortDesc:'Attended & presented poster',desc:'Attended the International Pharmaceutical Sciences Congress in Vienna. Presented a poster on LNP formulations for mRNA delivery, receiving the Young Researcher Award.',imgData:''},{id:2,title:'University Research Day 2024',date:'2024-04-22',emoji:'\ud83d\udd2c',shortDesc:'Oral presentation',desc:'Delivered an oral presentation at the annual University Research Day, showcasing preliminary results from the thesis project on LNP-mRNA delivery systems.',imgData:''},{id:3,title:'Pharma Innovation Hackathon',date:'2023-11-05',emoji:'\ud83d\udca1',shortDesc:'2nd place winner',desc:'Participated in a 48-hour hackathon. Our team developed a smart patch concept for continuous glucose monitoring with insulin delivery, winning second place.',imgData:''},{id:4,title:'Student Chapter Leadership Summit',date:'2023-06-15',emoji:'\ud83e\udd1d',shortDesc:'Chapter representative',desc:"Represented the university's pharmaceutical sciences student chapter at the national leadership summit, networking with peers from institutions across the country.",imgData:''}]);
-  DB.set('messages',[]);DB.set('seeded',true);
+  DB.set('messages',[]);
+  DB.set('courses',[
+    {id:1,title:'Introduction to Pharmaceutical Nanotechnology',inst:'Coursera / Johns Hopkins University',date:'2024-08-20',duration:'8 weeks',desc:'Comprehensive course covering fundamentals of nanotechnology applied to drug delivery, including liposomes, polymeric nanoparticles, and solid lipid nanoparticles. Completed with Honours.',fileData:'',fileType:''},
+    {id:2,title:'Biostatistics for Pharmaceutical Sciences',inst:'edX / MIT OpenCourseWare',date:'2024-03-15',duration:'10 weeks',desc:'Statistical methods for experimental design and data analysis in pharmaceutical research. Covered ANOVA, regression analysis, and non-parametric tests using R.',fileData:'',fileType:''},
+    {id:3,title:'Regulatory Affairs in Drug Development',inst:'Pharma Regulatory Institute',date:'2023-12-10',duration:'4 weeks',desc:'Overview of global regulatory frameworks (FDA, EMA, CDSCO) for drug approval processes, IND/NDA submissions, and GMP compliance.',fileData:'',fileType:''},
+  ]);
+  DB.set('research',[
+    {id:1,title:'Lipid Nanoparticle Formulations for mRNA Delivery',status:'active',duration:'Jan 2024 — Present',shortDesc:'Developing and optimising LNP systems as non-viral vectors for mRNA therapeutics with enhanced stability and transfection efficiency.',fullDesc:'This project focuses on the rational design of lipid nanoparticles (LNPs) for efficient intracellular delivery of mRNA. The work involves systematic variation of lipid composition (ionisable lipid, helper lipid, cholesterol, PEG-lipid), microfluidic preparation, and physicochemical characterisation. Transfection efficiency is evaluated in HeLa and A549 cell lines using luciferase reporter mRNA. The project aims to establish structure-activity relationships to guide formulation of therapeutic mRNA vaccines.',tags:'LNP,mRNA,Drug Delivery,Nanotechnology',supervisor:'Prof. Dr. Elena Rossi, Drug Delivery Lab',mat1Data:'',mat1Type:'',mat2Data:'',mat2Type:''},
+    {id:2,title:'Computational Prediction of Intestinal Absorption',status:'active',duration:'Jun 2023 — Present',shortDesc:'Applying machine learning models to predict Caco-2 permeability and BCS classification of drug candidates from molecular descriptors.',fullDesc:'Oral bioavailability is a critical factor in drug development. This project builds predictive QSAR models using molecular fingerprints and physicochemical descriptors to estimate intestinal permeability (Caco-2 Papp). Algorithms including Random Forest, XGBoost, and graph neural networks are trained on a curated dataset of 800+ compounds. The validated models are integrated into a web tool for early-stage drug screening.',tags:'Machine Learning,QSAR,Biopharmaceutics,Python',supervisor:'Dr. Marco Filibert, Computational Pharma Group',mat1Data:'',mat1Type:'',mat2Data:'',mat2Type:''},
+  ]);
+  DB.set('seeded',true);
 })();
 (function initTheme(){const s=localStorage.getItem('ap_theme'),p=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||p)})();
 document.getElementById('tt').addEventListener('click',()=>{const t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('ap_theme',t)});
@@ -626,7 +758,7 @@ document.getElementById('mdl').addEventListener('click',e=>{if(e.target===docume
 document.addEventListener('keydown',e=>{if(e.key==='Escape')cM()});
 function rf(file,cb){const r=new FileReader();r.onload=e=>cb(e.target.result);r.readAsDataURL(file)}
 function fsz(b){if(b<1024)return b+' B';if(b<1048576)return(b/1024).toFixed(1)+' KB';return(b/1048576).toFixed(1)+' MB'}
-const ULL={af:['Click to upload PDF or image','PDF, PNG, JPG \u2014 embedded in the popup'],wf:['Click to upload certificate','PDF, PNG, JPG \u2014 embedded in the popup'],ef:['Click to upload event photo','PNG, JPG, WEBP \u2014 shown in gallery & popup']};
+const ULL={af:['Click to upload PDF or image','PDF, PNG, JPG — embedded in the popup'],wf:['Click to upload certificate','PDF, PNG, JPG — embedded in the popup'],ef:['Click to upload event photo','PNG, JPG, WEBP — shown in gallery & popup'],cf:['Click to upload certificate','PDF, PNG, JPG — shown in popup'],rf1:['Click to upload material 1','PDF, PNG, JPG — shown in popup'],rf2:['Click to upload material 2','PDF, PNG, JPG — shown in popup']};
 function hF(pfx,inp){
   const file=inp.files[0];if(!file)return;
   const z=document.getElementById(pfx+'z'),pv=document.getElementById(pfx+'pv');
@@ -663,7 +795,7 @@ function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').
 function fd(d){if(!d)return'';try{return new Date(d).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})}catch{return d}}
 function fdt(d){if(!d)return'';try{return new Date(d).toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'2-digit',minute:'2-digit'})}catch{return d}}
 function fbdg(f){return f?'<span class="tag" style="font-size:.72rem">\u2713 File</span>':'<span style="color:var(--tx3);font-size:.8rem">\u2014</span>'}
-function rP(){rHero();rAbt();rSkl();rArts();rWs();rEvs();iSA()}
+function rP(){rHero();rAbt();rSkl();rArts();rWs();rEvs();rCrs();rRp();iSA()}
 function rHero(){
   const h=DB.get('hero',{});
   if(h.name)document.getElementById('phn2').innerHTML=h.name;
@@ -721,10 +853,10 @@ document.getElementById('ctf').addEventListener('submit',function(e){
   DB.set('messages',msgs);this.reset();const s=document.getElementById('fsu');s.style.display='block';setTimeout(()=>s.style.display='none',5000);uMB();
 });
 function iSA(){const io=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});document.querySelectorAll('.fi').forEach((el,i)=>{el.style.transitionDelay=(i%4)*.08+'s';io.observe(el)})}
-function rAd(){rDsh();lHF();lAF2();rST();rAT();rWT();rET();rMs();uMB()}
+function rAd(){rDsh();lHF();lAF2();rST();rAT();rWT();rET();rCT();rRT();rMs();uMB()}
 function rDsh(){
   const h=new Date().getHours();document.getElementById('dgrt').textContent=(h<12?'Good morning':h<18?'Good afternoon':'Good evening')+', Admin!';
-  const its=[['articles','Articles'],['workshops','Workshops'],['events','Events'],['messages','Messages'],['skills','Skills']];
+  const its=[['articles','Articles'],['workshops','Workshops'],['courses','Courses'],['research','Research'],['events','Events'],['messages','Messages'],['skills','Skills']];
   document.getElementById('dsg').innerHTML=its.map(([k,l])=>`<div class="sw"><div class="swn">${DB.get(k,[]).length}</div><div class="swl">${l}</div></div>`).join('');
   const msgs=DB.get('messages',[]).slice(0,3);
   document.getElementById('dms').innerHTML=msgs.length?msgs.map(m=>`<div style="padding:10px 0;border-bottom:1px solid var(--gb)"><div style="font-weight:600;font-size:.88rem">${esc(m.name)}</div><div style="font-size:.8rem;color:var(--tx3)">${esc(m.email)}</div></div>`).join(''):'<p style="color:var(--tx3);font-size:.85rem">No messages yet.</p>';
@@ -762,7 +894,123 @@ function rMs(){const msgs=DB.get('messages',[]),el=document.getElementById('msl'
 function dMs(id){if(!confirm('Delete?'))return;DB.set('messages',DB.get('messages',[]).filter(m=>m.id!==id));rMs();uMB();toast('\ud83d\uddd1\ufe0f Deleted')}
 function clMs(){if(!confirm('Clear all messages?'))return;DB.set('messages',[]);rMs();uMB();toast('\ud83d\uddd1\ufe0f All cleared')}
 function uMB(){const c=DB.get('messages',[]).length,b=document.getElementById('mb');if(b)b.textContent=c>0?c:''}
-function sAP(id,btn){document.querySelectorAll('.ap').forEach(p=>p.classList.remove('act'));document.querySelectorAll('.ani').forEach(i=>i.classList.remove('act'));document.getElementById(id).classList.add('act');if(btn)btn.classList.add('act');else document.querySelectorAll('.ani').forEach(item=>{if((item.getAttribute('onclick')||'').includes(id))item.classList.add('act')});document.querySelector('.act2').scrollTop=0;if(id==='p0')rDsh();if(id==='p7')rMs()}
+
+/* COURSES PUBLIC */
+function rCrs(){
+  const crs=DB.get('courses',[]),el=document.getElementById('crstl');
+  if(!el)return;
+  if(!crs.length){el.innerHTML='<p style="color:var(--tx3);padding:20px 0">No courses yet.</p>';return}
+  el.innerHTML=crs.map(c=>`<div class="tli" onclick="oCrM(${c.id})" role="button" tabindex="0" onkeydown="if(event.key==='Enter')oCrM(${c.id})"><div class="tld"></div><div class="tlc"><div class="tlt2">${fd(c.date)}${c.duration?' &middot; '+esc(c.duration):''}</div><div class="tltl">${esc(c.title)}</div><div class="tlo">${esc(c.inst)}${c.fileData?' &middot; <span style="font-size:.78rem">&#127891; Cert attached</span>':''}</div></div></div>`).join('');
+}
+function oCrM(id){
+  const c=DB.get('courses',[]).find(x=>x.id===id);if(!c)return;
+  let b=`<div class="mm"><span class="tag">${esc(c.inst)}</span><span style="color:var(--tx3);font-size:.82rem">${fd(c.date)}</span>${c.duration?`<span class="tag" style="background:var(--bg2);color:var(--tx2)">${esc(c.duration)}</span>`:''}</div><div class="mct">${esc(c.desc)}</div>`;
+  if(c.fileData){b+=`<div style="margin-top:18px;font-size:.78rem;font-weight:600;color:var(--tx3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px">Certificate</div>`;b+=(c.fileType||'').includes('pdf')?`<div class="mpdf"><iframe src="${c.fileData}" title="Certificate"></iframe></div>`:`<div class="mimg"><img src="${c.fileData}" alt="Certificate"/></div>`}
+  else{b+=`<div class="mnf"><div class="mnfi">&#127891;</div><div>No certificate uploaded yet</div></div>`}
+  oM(c.title,b);
+}
+/* RESEARCH PUBLIC */
+const RP_STATUS={active:{label:'Active',cls:'rps-active'},complete:{label:'Complete',cls:'rps-complete'},paused:{label:'Paused',cls:'rps-paused'}};
+function rRp(){
+  const rps=DB.get('research',[]),el=document.getElementById('rpgrd');
+  if(!el)return;
+  if(!rps.length){el.innerHTML='<p style="color:var(--tx3);text-align:center;padding:40px 0;grid-column:1/-1">No research projects yet.</p>';return}
+  el.innerHTML=rps.map(r=>{
+    const st=RP_STATUS[r.status]||RP_STATUS.active;
+    const tags=(r.tags||'').split(',').map(t=>t.trim()).filter(Boolean);
+    return`<div class="card rpc" onclick="oRpM(${r.id})" tabindex="0" role="button" onkeydown="if(event.key==='Enter')oRpM(${r.id})">
+      <div><span class="rps ${st.cls}">${st.label}</span></div>
+      <div class="rpt">${esc(r.title)}</div>
+      <div class="rpd">${esc(r.shortDesc)}</div>
+      <div class="rpf">
+        <div class="rpfl">${tags.slice(0,3).map(t=>`<span class="tag" style="font-size:.7rem">${esc(t)}</span>`).join('')}</div>
+        <span class="rparr">View Project &#8594;</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+function oRpM(id){
+  const r=DB.get('research',[]).find(x=>x.id===id);if(!r)return;
+  const st=RP_STATUS[r.status]||RP_STATUS.active;
+  const tags=(r.tags||'').split(',').map(t=>t.trim()).filter(Boolean);
+  let b=`<div class="mm">
+    <span class="rps ${st.cls}" style="padding:4px 12px;border-radius:100px;font-size:.78rem">${st.label}</span>
+    ${r.duration?`<span style="color:var(--tx3);font-size:.82rem">&#128197; ${esc(r.duration)}</span>`:''}
+    ${r.supervisor?`<span style="color:var(--tx3);font-size:.82rem">&#128104;&#8205;&#127979; ${esc(r.supervisor)}</span>`:''}
+  </div>
+  ${tags.length?`<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px">${tags.map(t=>`<span class="tag" style="font-size:.75rem">${esc(t)}</span>`).join('')}</div>`:''}
+  <div class="mct">${esc(r.fullDesc)}</div>`;
+  const mats=[];
+  if(r.mat1Data)mats.push({data:r.mat1Data,type:r.mat1Type||'',label:'Supporting Material 1'});
+  if(r.mat2Data)mats.push({data:r.mat2Data,type:r.mat2Type||'',label:'Supporting Material 2'});
+  if(mats.length){
+    b+=`<div class="mmat"><div class="mmatt">Supporting Materials</div><div class="mmatg">`;
+    mats.forEach(m=>{
+      if(m.type.includes('pdf')){
+        b+=`<div><div class="mmatf"><div class="mmatfi">&#128196;</div><div><div class="mmafn">${esc(m.label)}</div><div class="mmafs">PDF Document</div></div></div><div class="mmatpdf" style="margin-top:8px"><iframe src="${m.data}" title="${esc(m.label)}" style="width:100%;height:460px;border:none;border-radius:var(--rs);display:block;background:#f0f0f0"></iframe></div></div>`;
+      }else{
+        b+=`<div><div class="mmatf"><div class="mmatfi">&#128444;&#65039;</div><div><div class="mmafn">${esc(m.label)}</div><div class="mmafs">Image</div></div></div><div class="mmatimg" style="margin-top:8px"><img src="${m.data}" alt="${esc(m.label)}" style="width:100%;border-radius:var(--rs);max-height:400px;object-fit:contain;background:var(--bg2)"/></div></div>`;
+      }
+    });
+    b+=`</div></div>`;
+  }
+  oM(r.title,b);
+}
+/* COURSES ADMIN */
+function rCT(){document.getElementById('crtb').innerHTML=DB.get('courses',[]).map(c=>`<tr><td style="max-width:200px"><strong>${esc(c.title)}</strong></td><td>${esc(c.inst)}</td><td style="white-space:nowrap">${fd(c.date)}</td><td>${fbdg(c.fileData)}</td><td><div style="display:flex;gap:8px"><button class="btn bo bsm" onclick="eCr(${c.id})">Edit</button><button class="btn bd bsm" onclick="dCr(${c.id})">Delete</button></div></td></tr>`).join('')||'<tr><td colspan="5" style="color:var(--tx3);padding:20px;text-align:center">No courses yet.</td></tr>'}
+function oCrF(){document.getElementById('crf').style.display='';document.getElementById('cfid').value='';['cft','cfi','cfd','cfdu','cfdc'].forEach(i=>document.getElementById(i).value='');clF('cf')}
+function cCrF(){document.getElementById('crf').style.display='none'}
+function svCr(){
+  const t=document.getElementById('cft').value.trim();if(!t)return;
+  const crs=DB.get('courses',[]),eid=parseInt(document.getElementById('cfid').value),old=eid?crs.find(x=>x.id===eid):null;
+  const fd2=document.getElementById('cfdt').value,ft=document.getElementById('cfft').value;
+  const c={id:eid||Date.now(),title:t,inst:document.getElementById('cfi').value.trim(),date:document.getElementById('cfd').value,duration:document.getElementById('cfdu').value.trim(),desc:document.getElementById('cfdc').value.trim(),fileData:fd2||(old?old.fileData:''),fileType:ft||(old?old.fileType:'')};
+  if(eid){const i=crs.findIndex(x=>x.id===eid);if(i>-1)crs[i]=c}else crs.unshift(c);
+  DB.set('courses',crs);rCT();cCrF();toast('\u2705 Course saved!');
+}
+function eCr(id){
+  const c=DB.get('courses',[]).find(x=>x.id===id);if(!c)return;
+  oCrF();document.getElementById('cfid').value=id;document.getElementById('cft').value=c.title;document.getElementById('cfi').value=c.inst;document.getElementById('cfd').value=c.date;document.getElementById('cfdu').value=c.duration||'';document.getElementById('cfdc').value=c.desc;
+  rFP('cf',c.fileData,c.fileType,'Certificate uploaded');
+}
+function dCr(id){if(!confirm('Delete?'))return;DB.set('courses',DB.get('courses',[]).filter(c=>c.id!==id));rCT();toast('\ud83d\uddd1\ufe0f Deleted')}
+/* RESEARCH ADMIN */
+function rRT(){document.getElementById('rptb').innerHTML=DB.get('research',[]).map(r=>{const st=RP_STATUS[r.status]||RP_STATUS.active;const m=(r.mat1Data?1:0)+(r.mat2Data?1:0);return`<tr><td style="max-width:180px"><strong>${esc(r.title)}</strong></td><td><span class="rps ${st.cls}" style="padding:3px 8px;border-radius:100px;font-size:.72rem">${st.label}</span></td><td style="font-size:.82rem;color:var(--tx2)">${esc(r.duration||'')}</td><td>${m>0?`<span class="tag" style="font-size:.72rem">${m} file${m>1?'s':''}</span>`:'<span style="color:var(--tx3);font-size:.8rem">&#8212;</span>'}</td><td><div style="display:flex;gap:8px"><button class="btn bo bsm" onclick="eRp(${r.id})">Edit</button><button class="btn bd bsm" onclick="dRp(${r.id})">Delete</button></div></td></tr>`}).join('')||'<tr><td colspan="5" style="color:var(--tx3);padding:20px;text-align:center">No research projects yet.</td></tr>'}
+function oRpF(){
+  document.getElementById('rpf').style.display='';document.getElementById('rfid').value='';
+  ['rft','rfdu','rfsd','rffd','rftg','rfsc'].forEach(i=>document.getElementById(i).value='');
+  document.getElementById('rfs').value='active';
+  clF('rf1');clF('rf2');
+}
+function cRpF(){document.getElementById('rpf').style.display='none'}
+function svRp(){
+  const t=document.getElementById('rft').value.trim();if(!t)return;
+  const rps=DB.get('research',[]),eid=parseInt(document.getElementById('rfid').value),old=eid?rps.find(x=>x.id===eid):null;
+  const m1d=document.getElementById('rf1dt').value,m1t=document.getElementById('rf1ft').value;
+  const m2d=document.getElementById('rf2dt').value,m2t=document.getElementById('rf2ft').value;
+  const r={id:eid||Date.now(),title:t,status:document.getElementById('rfs').value,duration:document.getElementById('rfdu').value.trim(),shortDesc:document.getElementById('rfsd').value.trim(),fullDesc:document.getElementById('rffd').value.trim(),tags:document.getElementById('rftg').value.trim(),supervisor:document.getElementById('rfsc').value.trim(),mat1Data:m1d||(old?old.mat1Data:''),mat1Type:m1t||(old?old.mat1Type:''),mat2Data:m2d||(old?old.mat2Data:''),mat2Type:m2t||(old?old.mat2Type:'')};
+  if(eid){const i=rps.findIndex(x=>x.id===eid);if(i>-1)rps[i]=r}else rps.unshift(r);
+  DB.set('research',rps);rRT();cRpF();toast('\u2705 Research project saved!');
+}
+function eRp(id){
+  const r=DB.get('research',[]).find(x=>x.id===id);if(!r)return;
+  oRpF();document.getElementById('rfid').value=id;document.getElementById('rft').value=r.title;document.getElementById('rfs').value=r.status||'active';document.getElementById('rfdu').value=r.duration||'';document.getElementById('rfsd').value=r.shortDesc;document.getElementById('rffd').value=r.fullDesc;document.getElementById('rftg').value=r.tags||'';document.getElementById('rfsc').value=r.supervisor||'';
+  rFP('rf1',r.mat1Data,r.mat1Type,'Material 1 uploaded');
+  rFP('rf2',r.mat2Data,r.mat2Type,'Material 2 uploaded');
+}
+function dRp(id){if(!confirm('Delete?'))return;DB.set('research',DB.get('research',[]).filter(r=>r.id!==id));rRT();toast('\ud83d\uddd1\ufe0f Deleted')}
+function sAP(id,btn){
+  document.querySelectorAll('.ap').forEach(p=>p.classList.remove('act'));
+  document.querySelectorAll('.ani').forEach(i=>i.classList.remove('act'));
+  document.getElementById(id).classList.add('act');
+  if(btn)btn.classList.add('act');
+  else document.querySelectorAll('.ani').forEach(item=>{if((item.getAttribute('onclick')||'').includes("'"+id+"'"))item.classList.add('act')});
+  document.querySelector('.act2').scrollTop=0;
+  if(id==='p0')rDsh();
+  if(id==='p7')rMs();
+  if(id==='p8')rCT();
+  if(id==='p9')rRT();
+}
 rP();
 </script>
 </body>

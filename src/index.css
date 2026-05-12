@@ -307,14 +307,15 @@ section    { padding: 110px 0; }
   animation: pulse 2s ease infinite;
 }
 
-/* Name — the main hero headline */
+/* Name — the main hero headline, sized to stay on one line */
 .hero-name {
   font-family: var(--font-display);
-  font-size: clamp(2.6rem, 7vw, 5.8rem);
+  font-size: clamp(2rem, 5.2vw, 4.2rem);
   font-weight: 800;
   line-height: 1.05;
-  letter-spacing: -.025em;
+  letter-spacing: -.02em;
   margin-bottom: .7rem;
+  white-space: nowrap;
   background: linear-gradient(30deg, #ffffff 30%, #70B5B9 70%, #174E8E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -817,7 +818,7 @@ section    { padding: 110px 0; }
 
   .hero-cta { flex-direction: column; align-items: center; }
   .contact-links { flex-direction: column; align-items: center; }
-  .hero-name { letter-spacing: -.01em; }
+  .hero-name { white-space: normal; font-size: clamp(1.8rem, 7vw, 2.8rem); }
   .section-title { margin-bottom: 2.5rem; }
 }
 

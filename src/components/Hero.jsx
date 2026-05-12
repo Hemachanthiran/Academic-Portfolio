@@ -77,7 +77,7 @@ export default function Hero() {
 
           {/* Name is the hero headline */}
           <h1 className="hero-name">
-            Hemachanthiran P.
+            Hemachanthiran P
           </h1>
 
           {/* Role is the subtitle */}

@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="container nav-inner">
         <a href="#" className="nav-logo" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
-          Hemachanthiran P<span>.</span>
+          Hemachanthiran P
         </a>
 
         <ul className={`nav-links${open ? ' open' : ''}`}>

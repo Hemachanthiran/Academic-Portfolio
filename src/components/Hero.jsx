@@ -36,7 +36,7 @@ export default function Hero() {
 
         ctx.beginPath()
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(112,181,185,${p.a})`
+        ctx.fillStyle = `rgba(192,68,255,${p.a})`
         ctx.fill()
 
         for (const q of particles) {
@@ -45,7 +45,7 @@ export default function Hero() {
             ctx.beginPath()
             ctx.moveTo(p.x, p.y)
             ctx.lineTo(q.x, q.y)
-            ctx.strokeStyle = `rgba(112,181,185,${0.12 * (1 - d / 140)})`
+            ctx.strokeStyle = `rgba(192,68,255,${0.13 * (1 - d / 140)})`
             ctx.lineWidth = 0.7
             ctx.stroke()
           }
@@ -65,6 +65,7 @@ export default function Hero() {
       <canvas ref={canvasRef} className="hero-canvas" />
       <div className="hero-orb hero-orb-1" />
       <div className="hero-orb hero-orb-2" />
+      <div className="hero-orb hero-orb-3" />
 
       <div className="container">
         <div className="hero-content">

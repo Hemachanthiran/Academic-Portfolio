@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const CHIPS = ['Molecular Docking', 'ADMET Prediction', 'Python', 'Cell Culture', 'Bioinformatics']
+const CHIPS = ['Molecular Docking', 'ADMET Prediction', 'Python', 'Cell Culture', 'Bioinformatics', 'Data Analysis']
 
 export default function Hero() {
   const canvasRef = useRef(null)
@@ -72,7 +72,7 @@ export default function Hero() {
 
           <div className="hero-badge">
             <span className="hero-badge-dot" />
-            Open to Research Internships
+            Open to Research Opportunities
           </div>
 
           {/* Name is the hero headline */}
@@ -86,7 +86,7 @@ export default function Hero() {
           </p>
 
           <p className="hero-sub">
-            Anna University – ACTech Campus &nbsp;·&nbsp; Chennai, India
+            ACTech Campus – Anna University &nbsp;·&nbsp; Chennai, India
           </p>
 
           <p className="hero-desc">
@@ -96,7 +96,7 @@ export default function Hero() {
 
           <div className="hero-cta">
             <a href="#projects" className="btn-primary" onClick={e => go(e, 'projects')}>
-              View Projects →
+              View Projects
             </a>
             <a href="#contact" className="btn-outline" onClick={e => go(e, 'contact')}>
               Get in Touch

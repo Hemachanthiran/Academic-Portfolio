@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 const STATS = [
   { n: '9.09', l: 'CGPA' },
   { n: '2+', l: 'Articles Published' },
-  { n: '3', l: 'Projects Completed' },
+  { n: '2', l: 'Hackathons Participated' },
   { n: '4+', l: 'Workshops Attended' },
 ]
 

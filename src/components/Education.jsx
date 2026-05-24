@@ -15,7 +15,7 @@ const EDU = [
     school: "St. Joseph's Matric Hr Sec School",
     location: 'Chengalpattu, Tamilnadu',
     grade: '90.34%',
-    note: null,
+    note: 'Biology - Maths Group',
   },
 ]
 

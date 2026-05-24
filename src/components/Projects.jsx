@@ -10,16 +10,8 @@ const PROJECTS = [
     github: 'https://github.com/Hemachanthiran/Farm2Fork',
   },
   {
-    icon: '❄️',
-    event: "Poster · Feast'25, SRM",
-    name: 'Frostura',
-    desc: 'Analysed temperature-related storage challenges faced by farmers and the impact of cold chain failures on livestock. Proposed a sensor-integrated conceptual model to improve logistics stability.',
-    tags: ['Cold Chain', 'AgriTech', 'Sensors', 'Logistics'],
-    github: null,
-  },
-  {
     icon: '🧬',
-    event: "BioHackathon'25 · Biotechcellence",
+    event: "BioHackathon'25 · Biotechcellence'25, Anna University",
     name: 'Absorptein',
     desc: 'Studied age-related protein malabsorption and Sarcopenia-associated muscle loss. Contributed to a conceptual nutraceutical formulation focused on improved protein bioavailability and muscle recovery.',
     tags: ['Formulation', 'Nutraceutical', 'Sarcopenia', 'Bioavailability'],

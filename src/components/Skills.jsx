@@ -3,12 +3,12 @@ import { useEffect, useRef } from 'react'
 const SKILLS = [
   'Python', 'Data Analysis', 'Molecular Docking',
   'ADMET Prediction', 'Protein Estimation',
-  'Cell Culture Techniques', 'Creative Design', 'Poster Presentation',
+  'Cell Culture Techniques', 'Creative Design', 'Poster Presentation'
 ]
 
 const TOOLS = [
   'Discovery Studio', 'AutoDock', 'SwissADME', 'ADMELab2.0',
-  'Microsoft Office', 'Power BI', 'Adobe Creative Suite', 'Canva',
+  'Microsoft Office', 'Power BI', 'Adobe Photoshop', 'Canva', 'Adobe Illustrator', 
 ]
 
 export default function Skills() {

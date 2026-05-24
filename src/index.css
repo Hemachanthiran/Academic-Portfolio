@@ -17,8 +17,8 @@
   --text:         #e8d4f7;
   --text-muted:   #b8a5d1;
   --text-dim:     #7a6b92;
-  --font-display: 'Cinzel', serif;
-  --font-body:    'Fauna One', serif;
+  --font-display: 'Abril Fatface', serif;
+  --font-body:    'Lato', sans-serif;
   --ease:         0.3s ease;
   --r:            14px;
 }
@@ -35,6 +35,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 
 body::before {
@@ -42,12 +43,11 @@ body::before {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 55% at 8%   5%,  rgba(155, 94, 220, 0.35) 0%, transparent 55%),
-    radial-gradient(ellipse 55% 45% at 92%  95%, rgba(180, 125, 209, 0.28) 0%, transparent 55%),
-    radial-gradient(ellipse 45% 40% at 80%  15%, rgba(185, 125, 209, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse 50% 45% at 20%  85%, rgba(150, 100, 200, 0.2) 0%, transparent 55%);
+    radial-gradient(ellipse 70% 55% at 8%   5%,  rgba(155, 94, 220, 0.25) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 92%  95%, rgba(180, 125, 209, 0.2) 0%, transparent 55%),
+    linear-gradient(135deg, rgba(26, 0, 51, 0.5) 0%, rgba(45, 27, 71, 0.4) 100%);
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
 }
 
 a { color: inherit; text-decoration: none; }

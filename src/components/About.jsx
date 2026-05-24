@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react'
 
 const STATS = [
   { n: '9.09', l: 'CGPA' },
-  { n: '90%+', l: 'HSC Grade' },
-  { n: '3', l: 'Projects' },
-  { n: '4+', l: 'Workshops' },
+  { n: '2+', l: 'Articles Published' },
+  { n: '3', l: 'Projects Completed' },
+  { n: '4+', l: 'Workshops Attended' },
 ]
 
 export default function About() {
@@ -27,12 +27,12 @@ export default function About() {
         <div className="about-grid">
           <div>
             <h2 className="section-title reveal reveal-delay-1">
-              Driven by curiosity,<br />guided by science.
+              Scientific Thinking.<br />.Creative Execution.
             </h2>
             <div className="about-text reveal reveal-delay-2">
               <p>
-                I'm a <strong>Pharmaceutical Technology student</strong> at Anna University's
-                ACTech Campus, maintaining a CGPA of 9.09. My work sits at the junction of
+                I'm a <strong>Pre-Final yearPharmaceutical Technology student</strong> at Anna University's
+                ACTech Campus, Anna University, Chennai. My work sits at the junction of
                 formulation science, bioinformatics, and translational research.
               </p>
               <p>

@@ -65,15 +65,6 @@ export default function About() {
           <div className="pub-venue">
             Verve 30th Edition &mdash; Biotechcellence&apos;25 &middot; Anna University, Chennai
           </div>
-          <div className="pub-title">
-            " "
-          </div>
-          <div className="pub-title">
-            "The Serendiptious Rise of Minoxidil : From Cardiovascular failure to Cosmetic Revolution"
-          </div>
-          <div className="pub-venue">
-            Verve 31th Edition &mdash; Biotechcellence&apos;26 &middot; Anna University, Chennai
-          </div>
         </div>
 
          <div className="about-pub reveal reveal-delay-2">

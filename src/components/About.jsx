@@ -31,7 +31,7 @@ export default function About() {
             </h2>
             <div className="about-text reveal reveal-delay-2">
               <p>
-                I'm a <strong>Pre-Final yearPharmaceutical Technology student</strong> at Anna University's
+                I'm a <strong>Pre-Final year Pharmaceutical Technology student</strong> at Anna University's
                 ACTech Campus, Anna University, Chennai. My work sits at the junction of
                 formulation science, bioinformatics, and translational research.
               </p>

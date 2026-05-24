@@ -21,7 +21,7 @@ export default function Contact() {
             Let&apos;s build something<br />meaningful together.
           </h2>
           <p className="contact-desc reveal reveal-delay-2">
-            Looking for research internship opportunities in pharmaceutical sciences,
+            Looking for research opportunities in pharmaceutical sciences,
             formulation development, or bioinformatics. Open to academic collaborations
             and industry projects.
           </p>
@@ -31,7 +31,7 @@ export default function Contact() {
               href="mailto:Hemachanthiranchandru7229@gmail.com"
               className="clink clink-primary"
             >
-              ✉ &nbsp;Email Me
+              ✉ &nbsp;Email 
             </a>
             <a
               href="https://linkedin.com/in/hemachanthiran"
@@ -54,7 +54,7 @@ export default function Contact() {
 
         <div className="divider" />
         <footer className="footer">
-          <p>© 2026 Hemachanthiran P &nbsp;·&nbsp; Chennai, India</p>
+          <p>© 2026 Hemachanthiran P &nbsp;·&nbsp; Chennai, TamilNadu, India</p>
         </footer>
       </div>
     </section>

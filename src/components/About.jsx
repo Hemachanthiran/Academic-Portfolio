@@ -66,7 +66,7 @@ export default function About() {
             Verve 30th Edition &mdash; Biotechcellence&apos;25 &middot; Anna University, Chennai
           </div>
           <div className="pub-title">
-            
+            " "
           </div>
           <div className="pub-title">
             "The Serendiptious Rise of Minoxidil : From Cardiovascular failure to Cosmetic Revolution"

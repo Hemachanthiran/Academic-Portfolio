@@ -273,17 +273,17 @@ section    { padding: 110px 0; }
 }
 .hero-orb-1 {
   width: 650px; height: 650px;
-  background: radial-gradient(circle, rgba(130, 0, 255, 0.55) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.55) 0%, transparent 70%);
   top: -180px; left: -180px;
 }
 .hero-orb-2 {
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(255, 0, 170, 0.45) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.45) 0%, transparent 70%);
   bottom: -100px; right: -100px;
 }
 .hero-orb-3 {
   width: 380px; height: 380px;
-  background: radial-gradient(circle, rgba(0, 200, 255, 0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, transparent 70%);
   top: 30%; right: -60px;
   position: absolute;
   border-radius: 50%;

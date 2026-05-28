@@ -2,33 +2,105 @@ import { useEffect, useRef } from 'react'
 
 const WORKSHOPS = [
   {
-    date: 'Nov 2025',
-    name: 'Docking, Homology Modelling & Active Site Prediction',
-    org: 'Discovery Boulevard · Online',
+    date: 'Apr 2026',
+    name: 'Webinar on "Role of AI in Docking Result Analysis and Optimization',
+    org: 'Barcode Biotechnology · Online',
   },
   {
-    date: 'Oct 2025',
-    name: 'Ignite Bootcamp – Idea to Plan',
-    org: 'Startify 3.0 / Wadhwani Foundation · Online',
+    date: 'Mar 2026',
+    name: 'Figma Bootcamp',
+    org: "Let's Upgrade · Online",
+  },
+  {
+    date: 'Mar 2026',
+    name: 'Sodium Dodecyl Sulfate - Polyacrylamide Gel Electrophoresis (SDS-PAGE) and Western Blotting',
+    org: "Biotechcellence'26, Anna University, Chennai · Offline",
+  },
+  {
+    date: 'Mar 2026',
+    name: 'Immobilized Metal Affinity Chromatograpgy and Green Fluorescent Protein Techniques',
+    org: "Biotechcellence'26, Anna University, Chennai · Offline",
+  },
+  {
+    date: 'Feb 2026',
+    name: 'Filmography and Editing workshop',
+    org: "FilmyHats, Anna University, Chennai · Offline",
+  },
+  {
+    date: 'Feb 2026',
+    name: 'Six Sigma Workshop - Yellow belt',
+    org: "NIQR and AU TVS Centre for Quality Management · Offline",
+  },
+  {
+    date: 'Jan 2026',
+    name: 'AI driven Quality Management Systems',
+    org: "Students Quality Council, Anna university, Chennai · Offline",
+  },
+  {
+    date: 'Jan 2026',
+    name: 'Webinar on "AI Assisted Drug Designing"',
+    org: "Barcode Biotechnology · Online",
+  },
+  {
+    date: 'Jan 2026',
+    name: 'Video Editing Workshop',
+    org: "Advance Creative Excellence, Chennai · Offline",
+  },
+  {
+    date: 'Jan 2026',
+    name: 'Graphic Designing Workshop',
+    org: "Advance Creative Excellence, Chennai · Offline",
+  },
+  {
+    date: 'Dec 2025',
+    name: 'Webinar on "Drug Design and Discovery"',
+    org: "Barcode Biotechnology · Online",
+  },
+  {
+    date: 'Nov 2025',
+    name: 'Docking, Homology Modelling and Active Site Prediction',
+    org: "Discovery Boulevard · Online",
+  },
+  {
+    date: 'Nov 2025',
+    name: 'Bioavailability and Bioequivalence Studies',
+    org: "Micro Theraps Research Labs Pvt Ltd, Chennai · Online",
+  },
+  {
+    date: 'Sept 2025',
+    name: 'Business Mastery workshop',
+    org: "Enantra'25, Anna University, Chennai · Offline",
+  },
+  {
+    date: 'Sept 2025',
+    name: 'Workshop on Data Analysis',
+    org: "Students Quality Council · Offline",
   },
   {
     date: 'Aug 2025',
     name: 'ADMET Profiling and Drug Likeness Analysis',
-    org: 'Discovery Boulevard · Online',
+    org: "Discovery Boulevard · Online",
   },
   {
     date: 'Mar 2025',
     name: 'Navigating Complexities in Drug Discovery',
     org: "Texux'25, SRM Chennai · Offline",
   },
+  {
+    date: 'Mar 2025',
+    name: 'Ignite Bootcamp – Idea to Plan',
+    org: 'Startify 3.0 / Wadhwani Foundation · Online'
+  },
 ]
 
 const CERTS = [
-  { icon: '⚗️',  name: 'Bioreactors',                               issuer: 'IIT Madras' },
-  { icon: '🧫',  name: 'Cell Culture Technologies',                 issuer: 'IIT Kanpur' },
-  { icon: '💊',  name: 'Drug Development & Pharmacoepidemiology',   issuer: 'Johns Hopkins University' },
-  { icon: '🧬',  name: 'Bioinformatics',                            issuer: 'Online Certification' },
-  { icon: '🎨',  name: 'Adobe Illustrator',                         issuer: 'Adobe' },
+  { icon: '⚗️',  name: 'AWS Fundamentals',                                 issuer: 'Guvi HCL' },
+  { icon: '⚗️',  name: 'Foundation course in Bioinformatics',              issuer: 'SIDH' },
+  { icon: '⚗️',  name: 'Bioreactor Design and Analysis',                   issuer: 'NPTEL' },
+  { icon: '⚗️',  name: 'Drug Development and Pharmacoepidermiology',       issuer: 'Coursera' },
+  { icon: '⚗️',  name: 'Cell Culture Technologies',                        issuer: 'NPTEL' },
+  { icon: '⚗️',  name: 'Bioreactors',                                      issuer: 'NPTEl' },
+  { icon: '⚗️',  name: 'Adobe Illustrator',                                issuer: 'Udemy' }
 ]
 
 export default function Workshops() {

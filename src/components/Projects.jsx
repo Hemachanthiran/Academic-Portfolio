@@ -1,6 +1,14 @@
 import { useEffect, useRef } from 'react'
 
 const PROJECTS = [
+    {
+    icon: '🩹',
+    event: "3rd E-YUVA call · BIRAC",
+    name: 'Enzy-Derm',
+    desc: 'Studied recurrent dermatophytic fungal infections caused by poor drug retention, biofilm-mediated resistance, and inadequate treatment monitoring. Contributed to the conceptual development of a smart antifungal skin patch combining targeted drug delivery, biofilm disruption, and visual infection monitoring.',
+    tags: ['Drug Delivery', 'Antifungals', 'Formulation'],
+    github: null,
+  },
   {
     icon: '🔗',
     event: "Foodathon · Feast'25, SRM",

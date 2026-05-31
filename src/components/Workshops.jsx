@@ -94,13 +94,13 @@ const WORKSHOPS = [
 ]
 
 const CERTS = [
-  { icon: '⚗️',  name: 'AWS Fundamentals',                                 issuer: 'Guvi HCL' },
-  { icon: '⚗️',  name: 'Foundation course in Bioinformatics',              issuer: 'SIDH' },
-  { icon: '⚗️',  name: 'Bioreactor Design and Analysis',                   issuer: 'NPTEL' },
-  { icon: '⚗️',  name: 'Drug Development and Pharmacoepidermiology',       issuer: 'Coursera' },
-  { icon: '⚗️',  name: 'Cell Culture Technologies',                        issuer: 'NPTEL' },
-  { icon: '⚗️',  name: 'Bioreactors',                                      issuer: 'NPTEl' },
-  { icon: '⚗️',  name: 'Adobe Illustrator',                                issuer: 'Udemy' }
+  { icon: '🌐',  name: 'AWS Fundamentals',                                 issuer: 'Guvi HCL' },
+  { icon: '🧬',  name: 'Foundation course in Bioinformatics',              issuer: 'SIDH' },
+  { icon: '🧫',  name: 'Bioreactor Design and Analysis',                   issuer: 'NPTEL' },
+  { icon: '💊',  name: 'Drug Development and Pharmacoepidermiology',       issuer: 'Coursera' },
+  { icon: '🦠',  name: 'Cell Culture Technologies',                        issuer: 'NPTEL' },
+  { icon: '🧫',  name: 'Bioreactors',                                      issuer: 'NPTEl' },
+  { icon: '✏️',  name: 'Adobe Illustrator',                                issuer: 'Udemy' }
 ]
 
 export default function Workshops() {

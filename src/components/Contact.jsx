@@ -31,7 +31,7 @@ export default function Contact() {
               href="mailto:Hemachanthiranchandru7229@gmail.com"
               className="clink clink-primary"
             >
-              ✉ &nbsp;Email 
+              Email 
             </a>
             <a
               href="https://linkedin.com/in/hemachanthiran"
@@ -39,7 +39,7 @@ export default function Contact() {
               rel="noreferrer"
               className="clink clink-ghost"
             >
-              LinkedIn ↗
+              LinkedIn 
             </a>
             <a
               href="https://github.com/Hemachanthiran"
@@ -47,7 +47,15 @@ export default function Contact() {
               rel="noreferrer"
               className="clink clink-ghost"
             >
-              GitHub ↗
+              GitHub 
+            </a>
+            <a
+              href="https://www.researchgate.net/profile/Hemachanthiran-Parasuraman"
+              target="_blank"
+              rel="noreferrer"
+              className="clink clink-ghost"
+            >
+              ResearchGate 
             </a>
           </div>
         </div>

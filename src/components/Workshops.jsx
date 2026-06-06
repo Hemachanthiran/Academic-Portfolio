@@ -8,11 +8,6 @@ const WORKSHOPS = [
   },
   {
     date: 'Mar 2026',
-    name: 'Figma Bootcamp',
-    org: "Let's Upgrade · Online",
-  },
-  {
-    date: 'Mar 2026',
     name: 'Sodium Dodecyl Sulfate - Polyacrylamide Gel Electrophoresis (SDS-PAGE) and Western Blotting',
     org: "Biotechcellence'26, Anna University, Chennai · Offline",
   },
@@ -20,11 +15,6 @@ const WORKSHOPS = [
     date: 'Mar 2026',
     name: 'Immobilized Metal Affinity Chromatograpgy and Green Fluorescent Protein Techniques',
     org: "Biotechcellence'26, Anna University, Chennai · Offline",
-  },
-  {
-    date: 'Feb 2026',
-    name: 'Filmography and Editing workshop',
-    org: "FilmyHats, Anna University, Chennai · Offline",
   },
   {
     date: 'Feb 2026',
@@ -42,16 +32,6 @@ const WORKSHOPS = [
     org: "Barcode Biotechnology · Online",
   },
   {
-    date: 'Jan 2026',
-    name: 'Video Editing Workshop',
-    org: "Advance Creative Excellence, Chennai · Offline",
-  },
-  {
-    date: 'Jan 2026',
-    name: 'Graphic Designing Workshop',
-    org: "Advance Creative Excellence, Chennai · Offline",
-  },
-  {
     date: 'Dec 2025',
     name: 'Webinar on "Drug Design and Discovery"',
     org: "Barcode Biotechnology · Online",
@@ -65,16 +45,6 @@ const WORKSHOPS = [
     date: 'Nov 2025',
     name: 'Bioavailability and Bioequivalence Studies',
     org: "Micro Theraps Research Labs Pvt Ltd, Chennai · Online",
-  },
-  {
-    date: 'Sept 2025',
-    name: 'Business Mastery workshop',
-    org: "Enantra'25, Anna University, Chennai · Offline",
-  },
-  {
-    date: 'Sept 2025',
-    name: 'Workshop on Data Analysis',
-    org: "Students Quality Council · Offline",
   },
   {
     date: 'Aug 2025',
@@ -94,13 +64,11 @@ const WORKSHOPS = [
 ]
 
 const CERTS = [
-  { icon: '🌐',  name: 'AWS Fundamentals',                                 issuer: 'Guvi HCL' },
   { icon: '🧬',  name: 'Foundation course in Bioinformatics',              issuer: 'SIDH' },
   { icon: '🧫',  name: 'Bioreactor Design and Analysis',                   issuer: 'NPTEL' },
   { icon: '💊',  name: 'Drug Development and Pharmacoepidermiology',       issuer: 'Coursera' },
   { icon: '🦠',  name: 'Cell Culture Technologies',                        issuer: 'NPTEL' },
   { icon: '🧫',  name: 'Bioreactors',                                      issuer: 'NPTEl' },
-  { icon: '✏️',  name: 'Adobe Illustrator',                                issuer: 'Udemy' }
 ]
 
 export default function Workshops() {

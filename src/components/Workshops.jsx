@@ -2,6 +2,11 @@ import { useEffect, useRef } from 'react'
 
 const WORKSHOPS = [
   {
+    date: 'June 2026',
+    name: 'Drug Repurposing and Target Selection Workshop',
+    org: 'Barcode Biotechnology · Online',
+  },
+  {
     date: 'Apr 2026',
     name: 'Webinar on "Role of AI in Docking Result Analysis and Optimization',
     org: 'Barcode Biotechnology · Online',

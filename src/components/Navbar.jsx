@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const LINKS = ['About', 'Education', 'Projects', 'Skills', 'Workshops', 'Contact']
+const LINKS = ['About', 'Education', 'Projects', 'Experience', 'Skills', 'Workshops', 'Contact']
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)

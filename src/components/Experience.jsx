@@ -6,7 +6,104 @@ const EXPERIENCES = [
     icon: '🧪',
     title: 'Research Lab Internship',
     cardDescription: 'Biomedical Research | 6 months | Department of Pharmaceuticals',
-    modalDescription: 'Conducted biomedical research focusing on drug delivery systems and formulation science. Collaborated with a team of 5 researchers on developing innovative solutions for protein bioavailability. Gained hands-on experience with advanced laboratory techniques and contributed to 2 published research papers.',
+    modalDescription: `
+    <div className="blog-post">
+
+  <h1>Industrial Internship at Reltsen Health Care</h1>
+
+  <p className="intro">
+    During my industrial internship at Reltsen Health Care, Thirubuvanai,
+    Puducherry, I gained exposure to the complete pharmaceutical manufacturing
+    workflow, from raw material handling to the release of finished products.
+    The experience provided valuable insight into how various departments work
+    together to ensure quality, compliance, and operational efficiency.
+  </p>
+
+  <h2>Store Department</h2>
+
+  <p>
+    The Store Department was the starting point of the manufacturing process.
+    Raw materials were received, sampled, tested, approved, and stored in
+    dedicated areas such as Receiving, Under Test, Quarantine, Approved,
+    Rejection, Cold Storage, Dispensing, and Daylight Stores.
+  </p>
+
+  <p>
+    Materials were transferred between sections using dynamic pass boxes,
+    minimizing contamination risks and ensuring a controlled flow of materials.
+    I also observed the inventory management system used to track APIs,
+    excipients, capsules, packaging materials, and other consumables.
+  </p>
+
+  <h2>Production Department</h2>
+
+  <p>
+    In the Production Department, I observed the complete manufacturing process
+    for tablets and capsules. The workflow included granulation, blending,
+    compression, coating, capsule filling, and intermediate storage stages.
+  </p>
+
+  <p>
+    I gained an understanding of how raw materials are transformed into finished
+    dosage forms while maintaining strict process controls. The department also
+    housed In-Process Quality Assurance (IPQA), which monitored critical
+    parameters throughout manufacturing.
+  </p>
+
+  <h2>Packaging Department</h2>
+
+  <p>
+    The Packaging Department handled both primary and secondary packaging
+    operations. The facility utilized blister, strip, and Alu-Alu packaging
+    systems depending on product requirements.
+  </p>
+
+  <p>
+    I observed how printed packaging materials containing batch information,
+    manufacturing details, and regulatory information were incorporated into the
+    packaging process before final distribution.
+  </p>
+
+  <h2>Quality Control (QC)</h2>
+
+  <p>
+    The Quality Control laboratory consisted of sample storage areas, wet
+    chemistry laboratories, and instrumental analysis sections. Samples were
+    collected at multiple stages of manufacturing to verify product quality.
+  </p>
+
+  <p>
+    I was introduced to analytical instruments including HPLC, UV-Visible
+    Spectrophotometers, Dissolution Testers, and Disintegration Testers. The
+    laboratory performed evaluations such as hardness, friability,
+    disintegration, dissolution, and assay testing according to pharmacopeial
+    standards.
+  </p>
+
+  <h2>Quality Assurance (QA)</h2>
+
+  <p>
+    The Quality Assurance Department focused on documentation, compliance, and
+    record management. QA personnel reviewed and compiled records from various
+    departments to ensure adherence to Good Manufacturing Practices (GMP) and
+    regulatory requirements.
+  </p>
+
+  <h2>Key Takeaways</h2>
+
+  <p>
+    This internship provided me with a comprehensive understanding of
+    pharmaceutical manufacturing operations, quality systems, documentation
+    practices, and cross-functional coordination.
+  </p>
+
+  <p>
+    Observing the journey of a product from raw material receipt to finished
+    packaging gave me valuable industry exposure and strengthened my practical
+    understanding of pharmaceutical production and quality management.
+  </p>
+
+</div>`,
     bannerImage: '/Assets/1 Banner.png',
     carouselImages: [
       '/Assets/1 1.png',

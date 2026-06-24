@@ -5,13 +5,17 @@ const EXPERIENCES = [
     id: 1,
     icon: '🧪',
     title: 'Research Lab Internship',
-    description: 'Conducted biomedical research focusing on drug delivery systems and formulation science. Collaborated with a team of 5 researchers on developing innovative solutions for protein bioavailability.',
+    cardDescription: 'Biomedical Research | 6 months | Department of Pharmaceuticals',
+    modalDescription: 'Conducted biomedical research focusing on drug delivery systems and formulation science. Collaborated with a team of 5 researchers on developing innovative solutions for protein bioavailability. Gained hands-on experience with advanced laboratory techniques and contributed to 2 published research papers.',
     bannerImage: '/Assets/1 Banner.png',
-    carouselImages:[
+    carouselImages: [
+      '/Assets/1 1.png',
       '/Assets/1 2.png',
       '/Assets/1 3.png',
+      '/Assets/1 4.png',
+      '/Assets/1 5.png',
     ],
-    tags: ['Quality Control', 'Quality Assurance', 'Formulation Development']
+    tags: ['Quality Control', 'Formulation', 'Manufacturing Workflow'],
   },
 ]
 
@@ -19,6 +23,8 @@ export default function Experience() {
   const ref = useRef(null)
   const [selectedExperienceId, setSelectedExperienceId] = useState(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [isEditing, setIsEditing] = useState(false)
+  const [editedDescriptions, setEditedDescriptions] = useState({})
 
   useEffect(() => {
     const obs = new IntersectionObserver(
@@ -50,17 +56,34 @@ export default function Experience() {
   const openModal = (experienceId) => {
     setSelectedExperienceId(experienceId)
     setCurrentImageIndex(0)
+    setIsEditing(false)
   }
 
   const closeModal = () => {
     setSelectedExperienceId(null)
     setCurrentImageIndex(0)
+    setIsEditing(false)
   }
 
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) {
       closeModal()
     }
+  }
+
+  const updateDescription = (id, field, value) => {
+    setEditedDescriptions(prev => ({
+      ...prev,
+      [id]: { ...prev[id], [field]: value }
+    }))
+  }
+
+  const getCardDescription = (exp) => {
+    return editedDescriptions[exp.id]?.cardDescription || exp.cardDescription
+  }
+
+  const getModalDescription = (exp) => {
+    return editedDescriptions[exp.id]?.modalDescription || exp.modalDescription
   }
 
   return (
@@ -85,7 +108,7 @@ export default function Experience() {
               <div className="experience-card-content">
                 <div className="experience-icon">{exp.icon}</div>
                 <h3 className="experience-title">{exp.title}</h3>
-                <p className="experience-desc">{exp.description}</p>
+                <p className="experience-desc">{getCardDescription(exp)}</p>
                 <div className="experience-tags">
                   {exp.tags.map(tag => (
                     <span key={tag} className="tag">{tag}</span>
@@ -101,6 +124,12 @@ export default function Experience() {
         <div className="modal-overlay" onClick={handleOverlayClick}>
           <div className="modal-content">
             <button className="modal-close-btn" onClick={closeModal}>✕</button>
+            <button
+              className="modal-edit-btn"
+              onClick={() => setIsEditing(!isEditing)}
+            >
+              {isEditing ? '✓ Done' : '✏ Edit'}
+            </button>
 
             <div className="modal-carousel">
               <img
@@ -118,7 +147,17 @@ export default function Experience() {
 
             <div className="modal-body">
               <h2 className="modal-title">{selectedExperience.title}</h2>
-              <p className="modal-description">{selectedExperience.description}</p>
+
+              {isEditing ? (
+                <textarea
+                  className="modal-edit-textarea"
+                  value={getModalDescription(selectedExperience)}
+                  onChange={(e) => updateDescription(selectedExperience.id, 'modalDescription', e.target.value)}
+                  placeholder="Enter description..."
+                />
+              ) : (
+                <p className="modal-description">{getModalDescription(selectedExperience)}</p>
+              )}
 
               <div className="modal-tags">
                 {selectedExperience.tags.map(tag => (

@@ -6,43 +6,7 @@ const EXPERIENCES = [
     icon: '🧪',
     title: 'Relsten Health Care',
     cardDescription: 'Manufacturing Plant | 15 days | Tablets | Capsules',
-    modalDescription: `
-    # Industrial Internship at Reltsen Health Care, Puducherry
-
-    During my industrial internship at Reltsen Health Care, Thirubuvanai, Puducherry, I gained exposure to the complete pharmaceutical manufacturing workflow, from raw material handling to the release of finished products. The experience allowed me to observe how different departments collaborate to ensure product quality, regulatory compliance, and efficient manufacturing operations.
-
-    ## Store Department
-
-    My journey began in the Store Department, where I learned how raw materials are received, tested, approved, stored, and dispensed for production. The facility was organized into dedicated areas such as Receiving, Under Test, Quarantine, Sampling, Approved, Cold Storage, Rejection, Dispensing, and Daylight Stores. Materials moved between areas through dynamic pass boxes, minimizing contamination risks and ensuring controlled material flow.
-
-    I also observed the inventory management system used to track APIs, excipients, capsules, packaging materials, and other manufacturing consumables. Before each batch was manufactured, the required quantities of raw materials were accurately dispensed and transferred to production.
-
-    ## Production Department
-
-    The Production Department provided insight into the manufacturing of tablets and capsules. I observed various stages including granulation, blending, compression, coating, capsule filling, and intermediate storage. The workflow demonstrated how raw materials are transformed into finished dosage forms while maintaining process consistency and quality standards.
-
-    I also learned about the role of In-Process Quality Assurance (IPQA), which monitors critical parameters throughout manufacturing to ensure compliance with established specifications.
-
-    ## Packaging Department
-
-    In the Packaging Department, I observed both primary and secondary packaging operations. The company utilized blister, strip, and Alu-Alu packaging systems depending on product requirements. Printed packaging materials containing batch information, manufacturing details, and regulatory information were prepared and integrated into the packaging process before final dispatch.
-
-    ## Quality Control (QC)
-
-    One of the most interesting parts of the internship was understanding the Quality Control workflow. I observed how samples were collected at multiple stages of manufacturing and tested for various quality parameters.
-
-    The QC laboratory was divided into sample storage areas, wet chemistry laboratories, and instrumental analysis sections. I was introduced to analytical instruments such as HPLC, UV-Visible Spectrophotometers, Dissolution Testers, and Disintegration Testers. The team performed evaluations including hardness, friability, dissolution, disintegration, and assay testing according to pharmacopeial standards.
-
-    ## Quality Assurance (QA)
-
-    The Quality Assurance Department highlighted the importance of documentation and compliance in pharmaceutical manufacturing. QA personnel reviewed records from different departments, compiled manufacturing documentation, and ensured adherence to Good Manufacturing Practices (GMP) and quality standards before product release.
-
-    ## Key Takeaways
-
-    This internship provided me with a comprehensive understanding of pharmaceutical manufacturing operations, quality systems, documentation practices, and cross-functional coordination. It strengthened my appreciation for the precision, discipline, and regulatory controls required to produce safe and effective pharmaceutical products.
-
-    The experience not only enhanced my technical knowledge but also gave me practical insight into how a modern pharmaceutical manufacturing facility operates on a day-to-day basis.
-    `,
+    modalDescription: `'Completed an industrial internship at Reltsen Health Care, Thirubuvanai, Puducherry, where I gained exposure to pharmaceutical manufacturing operations across the Store, Production, Packaging, Quality Control (QC), and Quality Assurance (QA) departments. Observed the complete workflow from raw material receipt, testing, storage, and dispensing to tablet and capsule manufacturing, packaging, quality testing, and documentation. Learned about GMP-compliant material handling systems, dynamic pass boxes, inventory management, granulation, blending, compression, coating, capsule filling, primary and secondary packaging processes, and analytical testing using instruments such as HPLC, UV-Visible Spectrophotometers, Dissolution Testers, and Disintegration Testers. Also gained insight into QA documentation practices, batch records, regulatory compliance, and cross-functional coordination within a pharmaceutical manufacturing facility.`,
     bannerImage: '/Assets/1 Banner.png',
     carouselImages: [
       '/Assets/1 1.png',

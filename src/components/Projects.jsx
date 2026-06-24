@@ -10,14 +10,6 @@ const PROJECTS = [
     github: null,
   },
   {
-    icon: '🔗',
-    event: "Foodathon · Feast'25, SRM",
-    name: 'Farm2Fork',
-    desc: 'Identified transparency gaps in farm-to-consumer supply chains and designed a Blockchain + IoT conceptual framework for end-to-end food traceability, improving quality assurance at every stage.',
-    tags: ['Blockchain', 'IoT', 'Traceability', 'Supply Chain'],
-    github: 'https://github.com/Hemachanthiran/Farm2Fork',
-  },
-  {
     icon: '🧬',
     event: "BioHackathon'25 · Biotechcellence'25, Anna University",
     name: 'Absorptein',

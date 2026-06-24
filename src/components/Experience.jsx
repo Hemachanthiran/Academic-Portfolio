@@ -8,7 +8,6 @@ const EXPERIENCES = [
     description: 'Conducted biomedical research focusing on drug delivery systems and formulation science. Collaborated with a team of 5 researchers on developing innovative solutions for protein bioavailability.',
     bannerImage: '/Assets/1 Banner.png',
     carouselImages:[
-      '/Assets/1 1.png',
       '/Assets/1 2.png',
       '/Assets/1 3.png',
     ],

@@ -4,102 +4,44 @@ const EXPERIENCES = [
   {
     id: 1,
     icon: '🧪',
-    title: 'Research Lab Internship',
-    cardDescription: 'Biomedical Research | 6 months | Department of Pharmaceuticals',
+    title: 'Relsten Health Care',
+    cardDescription: 'Manufacturing Plant | 15 days | Tablets | Capsules',
     modalDescription: `
-    <h1>Industrial Internship at Reltsen Health Care</h1>
+    # Industrial Internship at Reltsen Health Care, Puducherry
 
-   <p className="intro">
-      During my industrial internship at Reltsen Health Care, Thirubuvanai,
-      Puducherry, I gained exposure to the complete pharmaceutical manufacturing
-      workflow, from raw material handling to the release of finished products.
-      The experience provided valuable insight into how various departments work
-      together to ensure quality, compliance, and operational efficiency.
-    </p>
+    During my industrial internship at Reltsen Health Care, Thirubuvanai, Puducherry, I gained exposure to the complete pharmaceutical manufacturing workflow, from raw material handling to the release of finished products. The experience allowed me to observe how different departments collaborate to ensure product quality, regulatory compliance, and efficient manufacturing operations.
 
-    <h2>Store Department</h2>
+    ## Store Department
 
-    <p>
-     The Store Department was the starting point of the manufacturing process.
-     Raw materials were received, sampled, tested, approved, and stored in
-     dedicated areas such as Receiving, Under Test, Quarantine, Approved,
-     Rejection, Cold Storage, Dispensing, and Daylight Stores.
-    </p>
+    My journey began in the Store Department, where I learned how raw materials are received, tested, approved, stored, and dispensed for production. The facility was organized into dedicated areas such as Receiving, Under Test, Quarantine, Sampling, Approved, Cold Storage, Rejection, Dispensing, and Daylight Stores. Materials moved between areas through dynamic pass boxes, minimizing contamination risks and ensuring controlled material flow.
 
-    <p>
-    Materials were transferred between sections using dynamic pass boxes,
-    minimizing contamination risks and ensuring a controlled flow of materials.
-    I also observed the inventory management system used to track APIs,
-    excipients, capsules, packaging materials, and other consumables.
-    </p>
+    I also observed the inventory management system used to track APIs, excipients, capsules, packaging materials, and other manufacturing consumables. Before each batch was manufactured, the required quantities of raw materials were accurately dispensed and transferred to production.
 
-    <h2>Production Department</h2>
+    ## Production Department
 
-    <p>
-    In the Production Department, I observed the complete manufacturing process
-    for tablets and capsules. The workflow included granulation, blending,
-    compression, coating, capsule filling, and intermediate storage stages.
-    </p>
+    The Production Department provided insight into the manufacturing of tablets and capsules. I observed various stages including granulation, blending, compression, coating, capsule filling, and intermediate storage. The workflow demonstrated how raw materials are transformed into finished dosage forms while maintaining process consistency and quality standards.
 
-    <p>
-    I gained an understanding of how raw materials are transformed into finished
-    dosage forms while maintaining strict process controls. The department also
-    housed In-Process Quality Assurance (IPQA), which monitored critical
-    parameters throughout manufacturing.
-    </p>
+    I also learned about the role of In-Process Quality Assurance (IPQA), which monitors critical parameters throughout manufacturing to ensure compliance with established specifications.
 
-    <h2>Packaging Department</h2>
+    ## Packaging Department
 
-    <p>
-    The Packaging Department handled both primary and secondary packaging
-    operations. The facility utilized blister, strip, and Alu-Alu packaging
-    systems depending on product requirements.
-    </p>
+    In the Packaging Department, I observed both primary and secondary packaging operations. The company utilized blister, strip, and Alu-Alu packaging systems depending on product requirements. Printed packaging materials containing batch information, manufacturing details, and regulatory information were prepared and integrated into the packaging process before final dispatch.
 
-    <p>
-    I observed how printed packaging materials containing batch information,
-    manufacturing details, and regulatory information were incorporated into the
-    packaging process before final distribution.
-    </p>
+    ## Quality Control (QC)
 
-    <h2>Quality Control (QC)</h2>
+    One of the most interesting parts of the internship was understanding the Quality Control workflow. I observed how samples were collected at multiple stages of manufacturing and tested for various quality parameters.
 
-    <p>
-    The Quality Control laboratory consisted of sample storage areas, wet
-    chemistry laboratories, and instrumental analysis sections. Samples were
-    collected at multiple stages of manufacturing to verify product quality.
-    </p>
+    The QC laboratory was divided into sample storage areas, wet chemistry laboratories, and instrumental analysis sections. I was introduced to analytical instruments such as HPLC, UV-Visible Spectrophotometers, Dissolution Testers, and Disintegration Testers. The team performed evaluations including hardness, friability, dissolution, disintegration, and assay testing according to pharmacopeial standards.
 
-    <p>
-    I was introduced to analytical instruments including HPLC, UV-Visible
-    Spectrophotometers, Dissolution Testers, and Disintegration Testers. The
-    laboratory performed evaluations such as hardness, friability,
-    disintegration, dissolution, and assay testing according to pharmacopeial
-    standards.
-    </p>
+    ## Quality Assurance (QA)
 
-    <h2>Quality Assurance (QA)</h2>
+    The Quality Assurance Department highlighted the importance of documentation and compliance in pharmaceutical manufacturing. QA personnel reviewed records from different departments, compiled manufacturing documentation, and ensured adherence to Good Manufacturing Practices (GMP) and quality standards before product release.
 
-    <p>
-    The Quality Assurance Department focused on documentation, compliance, and
-    record management. QA personnel reviewed and compiled records from various
-    departments to ensure adherence to Good Manufacturing Practices (GMP) and
-    regulatory requirements.
-    </p>
+    ## Key Takeaways
 
-    <h2>Key Takeaways</h2>
+    This internship provided me with a comprehensive understanding of pharmaceutical manufacturing operations, quality systems, documentation practices, and cross-functional coordination. It strengthened my appreciation for the precision, discipline, and regulatory controls required to produce safe and effective pharmaceutical products.
 
-    <p>
-    This internship provided me with a comprehensive understanding of
-    pharmaceutical manufacturing operations, quality systems, documentation
-    practices, and cross-functional coordination.
-    </p>
-
-    <p>
-    Observing the journey of a product from raw material receipt to finished
-    packaging gave me valuable industry exposure and strengthened my practical
-    understanding of pharmaceutical production and quality management.
-    </p>
+    The experience not only enhanced my technical knowledge but also gave me practical insight into how a modern pharmaceutical manufacturing facility operates on a day-to-day basis.
     `,
     bannerImage: '/Assets/1 Banner.png',
     carouselImages: [
